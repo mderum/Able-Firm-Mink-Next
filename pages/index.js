@@ -546,7 +546,7 @@ const Home = (props) => {
             <div className="home-separator"></div>
             <div className="home-container34">
               <span className="home-text77">
-                © 2023 myCompany, All Rights Reserved.
+                Copyright ©️ at DogeXGrok community 2023
               </span>
               <div className="home-icon-group1">
                 <svg
