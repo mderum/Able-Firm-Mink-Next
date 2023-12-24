@@ -150,10 +150,6 @@ const Home = (props) => {
                 <h2 id="toko" className="home-features-heading heading2">
                   Tokenomics
                 </h2>
-                <span className="home-features-sub-heading">
-                  Discover the powerful features of our crypto currency
-                  platform.
-                </span>
               </div>
               <div className="home-container04">
                 <FeatureCard
@@ -980,12 +976,6 @@ const Home = (props) => {
             line-height: 1.6;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-features-sub-heading {
-            color: var(--dl-color-gray-800);
-            font-size: 18px;
-            text-align: center;
-            line-height: 1.6;
-          }
           .home-container04 {
             width: 100%;
             display: grid;
@@ -1718,11 +1708,6 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
             }
-            .home-features-sub-heading {
-              text-align: center;
-              padding-left: var(--dl-space-space-threeunits);
-              padding-right: var(--dl-space-space-threeunits);
-            }
             .home-container06 {
               align-items: center;
               flex-direction: column;
@@ -1847,10 +1832,6 @@ const Home = (props) => {
             .home-features1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
-            }
-            .home-features-sub-heading {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
             }
             .home-container04 {
               grid-template-columns: 1fr;
