@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 
 import FeatureCard from '../components/feature-card'
+import Gallery from '../components/gallery'
 import Question from '../components/question'
 
 const Home = (props) => {
@@ -333,37 +334,7 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-gallery">
-          <div className="home-gallery1">
-            <h1 className="home-gallery-heading heading2">Our Partners</h1>
-            <span className="home-gallery-sub-heading">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-              volutpat turpis. Mauris luctus rutrum mi ut rhoncus. Integer in
-              dignissim tortor.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <div className="home-container29"></div>
-            <div className="home-container30">
-              <img
-                alt="image"
-                src="/f7bla1hx0aar8ld-500h.jpg"
-                className="home-image"
-              />
-            </div>
-            <img
-              alt="image"
-              src="/pancakeswap-cake3276-500w.jpg"
-              className="home-image1"
-            />
-            <img
-              alt="image"
-              src="/1_0y89qcf-ncigqqxds1ch8g-300h.jpg"
-              className="home-image2"
-            />
-          </div>
+          <Gallery></Gallery>
         </div>
         <div className="home-banner">
           <div className="home-banner1">
@@ -379,7 +350,7 @@ const Home = (props) => {
         <div className="home-faq">
           <div className="home-faq-container">
             <div className="home-faq1">
-              <div className="home-container31">
+              <div className="home-container29">
                 <span className="home-text46 sectionTitle">
                   <span>FAQ</span>
                   <br></br>
@@ -460,7 +431,7 @@ const Home = (props) => {
                   </span>
                 </span>
               </div>
-              <div className="home-container32">
+              <div className="home-container30">
                 <Question
                   Answer="The total token supply is XXXX tokens."
                   Question="What is the total token supply?"
@@ -526,7 +497,7 @@ const Home = (props) => {
         </div>
         <div className="home-footer">
           <footer className="home-footer1">
-            <div className="home-container33">
+            <div className="home-container31">
               <span className="home-logo2">
                 DogeXGrok
                 <span
@@ -544,9 +515,9 @@ const Home = (props) => {
               </nav>
             </div>
             <div className="home-separator"></div>
-            <div className="home-container34">
+            <div className="home-container32">
               <span className="home-text77">
-                Copyright ©️ at DogeXGrok community 2023
+                © 2023 myCompany, All Rights Reserved.
               </span>
               <div className="home-icon-group1">
                 <svg
@@ -813,7 +784,7 @@ const Home = (props) => {
             display: flex;
             align-items: flex-start;
             justify-content: center;
-            background-color: #1886e8;
+            background-color: var(--dl-color-primary1-blue80);
           }
           .home-hero1 {
             width: 100%;
@@ -1501,60 +1472,6 @@ const Home = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .home-gallery1 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            width: 100%;
-            display: flex;
-            max-width: var(--dl-size-size-maxwidth);
-            align-items: center;
-            padding-top: var(--dl-space-space-fourunits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-fourunits);
-          }
-          .home-gallery-heading {
-            text-align: center;
-            font-family: 'Raleway';
-            line-height: 1.6;
-          }
-          .home-gallery-sub-heading {
-            color: rgb(153, 153, 153);
-            text-align: center;
-            line-height: 1.6;
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-          }
-          .home-container29 {
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: grid;
-            grid-gap: var(--dl-space-space-unit);
-            margin-top: var(--dl-space-space-twounits);
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-          }
-          .home-container30 {
-            flex: 0 0 auto;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .home-image {
-            width: 400;
-            height: 200;
-            object-fit: cover;
-          }
-          .home-image1 {
-            width: 400;
-            height: 200;
-            object-fit: cover;
-          }
-          .home-image2 {
-            width: 400;
-            height: 200;
-            object-fit: cover;
-          }
           .home-banner {
             flex: 0 0 auto;
             width: 100%;
@@ -1632,7 +1549,7 @@ const Home = (props) => {
             flex-direction: row;
             padding-bottom: var(--dl-space-space-fourunits);
           }
-          .home-container31 {
+          .home-container29 {
             display: flex;
             max-width: 35%;
             align-items: flex-start;
@@ -1655,7 +1572,7 @@ const Home = (props) => {
             text-align: left;
             line-height: 1.6;
           }
-          .home-container32 {
+          .home-container30 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-items: flex-start;
@@ -1707,7 +1624,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fourunits);
             justify-content: space-between;
           }
-          .home-container33 {
+          .home-container31 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             max-width: var(--dl-size-size-maxwidth);
@@ -1765,7 +1682,7 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-container34 {
+          .home-container32 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1800,31 +1717,17 @@ const Home = (props) => {
             height: 24px;
           }
           @media (max-width: 1600px) {
-            .home-image {
-              width: 464px;
-              height: 247px;
-            }
-            .home-image1 {
-              width: 409px;
-              height: 248px;
-            }
-            .home-image2 {
-              width: 380px;
-              height: 244px;
+            .home-hero {
+              background-color: #0a70f7;
             }
           }
           @media (max-width: 1200px) {
-            .home-image {
-              width: 398px;
-              height: 189px;
-            }
-            .home-image1 {
-              width: 343px;
-              height: 203px;
-            }
-            .home-image2 {
-              width: 323px;
-              height: 194px;
+            .home-hero1 {
+              background-image: linear-gradient(
+                90deg,
+                rgb(189, 195, 199) 0%,
+                rgb(3, 32, 85) 100%
+              );
             }
           }
           @media (max-width: 991px) {
@@ -1886,24 +1789,6 @@ const Home = (props) => {
             .home-pricing-card2 {
               width: 100%;
               max-width: 450px;
-            }
-            .home-gallery-sub-heading {
-              text-align: center;
-            }
-            .home-container29 {
-              grid-template-columns: 1fr 1fr 1fr;
-            }
-            .home-image {
-              width: 260px;
-              height: 123px;
-            }
-            .home-image1 {
-              width: 241px;
-              height: 125px;
-            }
-            .home-image2 {
-              width: 279px;
-              height: 131px;
             }
             .home-banner-sub-heading {
               max-width: 100%;
@@ -2037,31 +1922,6 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .home-gallery1 {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .home-gallery-sub-heading {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-            }
-            .home-container29 {
-              height: 1021px;
-              padding-bottom: 1px;
-              grid-template-columns: 1fr 1fr;
-            }
-            .home-image {
-              width: 291px;
-              height: 456px;
-            }
-            .home-image1 {
-              width: 483px;
-              height: 117px;
-            }
-            .home-image2 {
-              width: 370px;
-              height: 91px;
-            }
             .home-banner1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
@@ -2075,7 +1935,7 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .home-container31 {
+            .home-container29 {
               max-width: 100%;
               align-self: center;
               align-items: center;
@@ -2095,7 +1955,7 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container34 {
+            .home-container32 {
               align-items: center;
               flex-direction: column;
               justify-content: space-between;
@@ -2149,24 +2009,6 @@ const Home = (props) => {
             .home-pricing-card2 {
               margin-bottom: 0px;
             }
-            .home-gallery1 {
-              padding: var(--dl-space-space-unit);
-            }
-            .home-container29 {
-              grid-template-columns: 1fr;
-            }
-            .home-image {
-              width: 447px;
-              height: 246px;
-            }
-            .home-image1 {
-              width: 454px;
-              height: 285px;
-            }
-            .home-image2 {
-              width: 447px;
-              height: 283px;
-            }
             .home-banner1 {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
@@ -2184,7 +2026,7 @@ const Home = (props) => {
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container34 {
+            .home-container32 {
               align-items: center;
               flex-direction: column;
               justify-content: space-between;
