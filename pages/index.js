@@ -158,17 +158,14 @@ const Home = (props) => {
               </div>
               <div className="home-container04">
                 <FeatureCard
+                  Heading="Name"
+                  SubHeading="DOGEXGROK"
+                ></FeatureCard>
+                <FeatureCard
                   Heading="Total Supply"
                   SubHeading="499 quadrillion"
                 ></FeatureCard>
-                <FeatureCard
-                  Heading="Secure Transactions"
-                  SubHeading="All transactions are encrypted and secure, ensuring the safety of your funds."
-                ></FeatureCard>
-                <FeatureCard
-                  Heading="Decentralized Network"
-                  SubHeading="Our crypto currency operates on a decentralized network, providing transparency and eliminating the need for intermediaries."
-                ></FeatureCard>
+                <FeatureCard Heading="Symbol" SubHeading="DXG"></FeatureCard>
                 <FeatureCard
                   Heading="Global Accessibility"
                   SubHeading="With our crypto currency, you can access your funds from anywhere in the world, making it convenient for international transactions."
@@ -517,7 +514,7 @@ const Home = (props) => {
             <div className="home-separator"></div>
             <div className="home-container32">
               <span className="home-text77">
-                © 2023 myCompany, All Rights Reserved.
+                Copyright ©️ at DogeXGrok community 2023
               </span>
               <div className="home-icon-group1">
                 <svg
@@ -1719,6 +1716,9 @@ const Home = (props) => {
           @media (max-width: 1600px) {
             .home-hero {
               background-color: #0a70f7;
+            }
+            .home-text77 {
+              color: var(--dl-color-secondary-gray500);
             }
           }
           @media (max-width: 1200px) {
