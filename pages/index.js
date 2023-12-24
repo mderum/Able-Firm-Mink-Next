@@ -57,7 +57,6 @@ const Home = (props) => {
                   <span className="home-nav21">Roadmap</span>
                   <span className="home-nav31">Partners</span>
                   <span className="home-nav41">Disclaimer</span>
-                  <span className="home-nav5">Blog</span>
                 </nav>
                 <div className="home-buttons1"></div>
               </div>
@@ -725,10 +724,6 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
           }
           .home-nav41 {
-            color: var(--dl-color-gray-black);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .home-nav5 {
             color: var(--dl-color-gray-black);
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -1860,10 +1855,6 @@ const Home = (props) => {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .home-nav5 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
             .home-hero1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
@@ -2018,6 +2009,9 @@ const Home = (props) => {
             }
             .home-icon02 {
               fill: var(--dl-color-gray-900);
+            }
+            .home-nav41 {
+              color: var(--dl-color-gray-black);
             }
             .home-hero1 {
               padding-top: var(--dl-space-space-twounits);
