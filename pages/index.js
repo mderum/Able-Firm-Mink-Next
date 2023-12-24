@@ -2,7 +2,6 @@ import React from 'react'
 import Head from 'next/head'
 
 import FeatureCard from '../components/feature-card'
-import GalleryCard3 from '../components/gallery-card3'
 import Question from '../components/question'
 
 const Home = (props) => {
@@ -16,7 +15,7 @@ const Home = (props) => {
         <div className="home-header">
           <header data-thq="thq-navbar" className="home-navbar-interactive">
             <span className="home-logo">
-              DogeXGrok
+              $DXG
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -158,8 +157,8 @@ const Home = (props) => {
               </div>
               <div className="home-container04">
                 <FeatureCard
-                  Heading="Fast and Efficient"
-                  SubHeading="Our crypto currency platform offers lightning-fast transactions, allowing you to transfer funds quickly and efficiently."
+                  Heading="Total Supply"
+                  SubHeading="499 quadrillion"
                 ></FeatureCard>
                 <FeatureCard
                   Heading="Secure Transactions"
@@ -347,19 +346,21 @@ const Home = (props) => {
               />
             </span>
             <div className="home-container29">
-              <GalleryCard3 rootClassName="rootClassName1"></GalleryCard3>
-              <GalleryCard3
-                image_src="https://images.unsplash.com/photo-1702426540518-5d27892dd2ec?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMzMxNzI2MHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-                rootClassName="rootClassName3"
-              ></GalleryCard3>
-              <GalleryCard3
-                image_src="https://images.unsplash.com/photo-1702234893452-52302797f873?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMzMxNzI2MHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-                rootClassName="rootClassName2"
-              ></GalleryCard3>
-              <GalleryCard3
-                image_src="https://images.unsplash.com/photo-1701542801052-3e66965e899a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMzMxNzI2MHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-                rootClassName="rootClassName7"
-              ></GalleryCard3>
+              <img
+                src="/1_0y89qcf-ncigqqxds1ch8g-300h.jpg"
+                alt="image"
+                className="home-image"
+              />
+              <img
+                src="/pancakeswap-cake3276-500w.jpg"
+                alt="image"
+                className="home-image1"
+              />
+              <img
+                src="/f7bla1hx0aar8ld-600w.jpg"
+                alt="image"
+                className="home-image2"
+              />
             </div>
           </div>
         </div>
@@ -1529,6 +1530,21 @@ const Home = (props) => {
             grid-gap: var(--dl-space-space-unit);
             margin-top: var(--dl-space-space-twounits);
             grid-template-columns: 1fr 1fr 1fr 1fr;
+          }
+          .home-image {
+            width: 399px;
+            height: 270px;
+            object-fit: cover;
+          }
+          .home-image1 {
+            width: 413px;
+            height: 268px;
+            object-fit: cover;
+          }
+          .home-image2 {
+            width: 538px;
+            height: 276px;
+            object-fit: cover;
           }
           .home-banner {
             flex: 0 0 auto;
