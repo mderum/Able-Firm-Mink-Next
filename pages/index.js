@@ -15,7 +15,7 @@ const Home = (props) => {
         <div className="home-header">
           <header data-thq="thq-navbar" className="home-navbar-interactive">
             <span className="home-logo">
-              $DXG
+              DogeXGrok ($DXG)
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
