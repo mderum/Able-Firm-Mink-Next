@@ -1721,15 +1721,6 @@ const Home = (props) => {
               color: var(--dl-color-secondary-gray500);
             }
           }
-          @media (max-width: 1200px) {
-            .home-hero1 {
-              background-image: linear-gradient(
-                90deg,
-                rgb(189, 195, 199) 0%,
-                rgb(3, 32, 85) 100%
-              );
-            }
-          }
           @media (max-width: 991px) {
             .home-hero1 {
               flex-direction: column;
