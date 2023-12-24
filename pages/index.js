@@ -2,7 +2,6 @@ import React from 'react'
 import Head from 'next/head'
 
 import FeatureCard from '../components/feature-card'
-import Gallery from '../components/gallery'
 import Question from '../components/question'
 
 const Home = (props) => {
@@ -166,10 +165,6 @@ const Home = (props) => {
                   SubHeading="499 quadrillion"
                 ></FeatureCard>
                 <FeatureCard Heading="Symbol" SubHeading="DXG"></FeatureCard>
-                <FeatureCard
-                  Heading="Global Accessibility"
-                  SubHeading="With our crypto currency, you can access your funds from anywhere in the world, making it convenient for international transactions."
-                ></FeatureCard>
               </div>
             </div>
           </div>
@@ -180,10 +175,6 @@ const Home = (props) => {
               <h2 id="road" className="home-pricing-heading heading2">
                 Roadmap
               </h2>
-              <span className="home-pricing-sub-heading">
-                Unlock the power of cryptocurrency with our flexible pricing
-                options
-              </span>
             </div>
             <div className="home-container06">
               <div className="home-pricing-card">
@@ -337,7 +328,32 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-gallery">
-          <Gallery></Gallery>
+          <div className="home-gallery1">
+            <h1 id="parts" className="home-gallery-heading heading2">
+              Our Partners
+            </h1>
+            <div className="home-container23">
+              <img
+                alt="image"
+                src="/1_0y89qcf-ncigqqxds1ch8g-300h.jpg"
+                className="home-image"
+              />
+            </div>
+            <div className="home-container24">
+              <img
+                alt="image"
+                src="/f7bla1hx0aar8ld-500h.jpg"
+                className="home-image1"
+              />
+            </div>
+            <div className="home-container25">
+              <img
+                alt="image"
+                src="/pancakeswap-cake3276-500w.jpg"
+                className="home-image2"
+              />
+            </div>
+          </div>
         </div>
         <div className="home-banner">
           <div className="home-banner1">
@@ -353,7 +369,7 @@ const Home = (props) => {
         <div className="home-faq">
           <div className="home-faq-container">
             <div className="home-faq1">
-              <div className="home-container23">
+              <div className="home-container26">
                 <span className="home-text47 sectionTitle">
                   <span>FAQ</span>
                   <br></br>
@@ -434,7 +450,7 @@ const Home = (props) => {
                   </span>
                 </span>
               </div>
-              <div className="home-container24">
+              <div className="home-container27">
                 <Question
                   Answer="The total token supply is XXXX tokens."
                   Question="What is the total token supply?"
@@ -484,9 +500,9 @@ const Home = (props) => {
               absolves the author and the platform from any liability related to
               financial decisions made based on the information provided.
             </span>
-            <br className="home-text71"></br>
             <br></br>
-            <br className="home-text73"></br>
+            <br></br>
+            <br></br>
             <br></br>
             <span>
               $DogeXGrok is just a BEP20 meme coin with no intrinsic value or
@@ -494,13 +510,13 @@ const Home = (props) => {
               based set of contributors solely for entertainment &amp; community
               engagement purposes.
             </span>
-            <br className="home-text76"></br>
+            <br></br>
             <br></br>
           </span>
         </div>
         <div className="home-footer">
           <footer className="home-footer1">
-            <div className="home-container25">
+            <div className="home-container28">
               <span className="home-logo2">
                 DogeXGrok
                 <span
@@ -525,7 +541,7 @@ const Home = (props) => {
               </nav>
             </div>
             <div className="home-separator"></div>
-            <div className="home-container26">
+            <div className="home-container29">
               <span className="home-text78">
                 Copyright ©️ at DogeXGrok community 2023
               </span>
@@ -575,7 +591,7 @@ const Home = (props) => {
             padding-top: var(--dl-space-space-oneandhalfunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-oneandhalfunits);
-            background-color: var(--dl-color-primary1-blue80);
+            background-color: #eb0101;
           }
           .home-navbar-interactive {
             width: 90%;
@@ -773,7 +789,7 @@ const Home = (props) => {
             display: flex;
             align-items: flex-start;
             justify-content: center;
-            background-color: var(--dl-color-primary1-blue80);
+            background-color: #ef4747;
           }
           .home-hero1 {
             width: 100%;
@@ -1008,12 +1024,6 @@ const Home = (props) => {
             font-family: 'Raleway';
             line-height: 1.6;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .home-pricing-sub-heading {
-            color: var(--dl-color-gray-800);
-            font-size: 18px;
-            text-align: center;
-            line-height: 1.6;
           }
           .home-container06 {
             gap: var(--dl-space-space-twounits);
@@ -1261,6 +1271,60 @@ const Home = (props) => {
             align-items: center;
             justify-content: center;
           }
+          .home-gallery1 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            width: 100%;
+            display: flex;
+            position: relative;
+            max-width: var(--dl-size-size-maxwidth);
+            align-items: center;
+            padding-top: var(--dl-space-space-fourunits);
+            padding-left: var(--dl-space-space-threeunits);
+            padding-right: var(--dl-space-space-threeunits);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-fourunits);
+          }
+          .home-gallery-heading {
+            text-align: center;
+            font-family: 'Raleway';
+            line-height: 1.6;
+          }
+          .home-container23 {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-image {
+            width: 384px;
+            height: 258px;
+            object-fit: cover;
+          }
+          .home-container24 {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-image1 {
+            width: 457px;
+            height: 254px;
+            object-fit: cover;
+          }
+          .home-container25 {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-image2 {
+            width: 396px;
+            height: 253px;
+            object-fit: cover;
+          }
           .home-banner {
             flex: 0 0 auto;
             width: 100%;
@@ -1273,7 +1337,7 @@ const Home = (props) => {
           .home-banner1 {
             gap: var(--dl-space-space-oneandhalfunits);
             width: var(--dl-size-size-maxwidth);
-            display: flex;
+            display: none;
             align-items: center;
             padding-top: var(--dl-space-space-sixunits);
             padding-left: var(--dl-space-space-fiveunits);
@@ -1329,7 +1393,8 @@ const Home = (props) => {
           .home-faq1 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
-            display: flex;
+            height: 580px;
+            display: none;
             max-width: var(--dl-size-size-maxwidth);
             align-items: flex-start;
             padding-top: var(--dl-space-space-fourunits);
@@ -1338,7 +1403,7 @@ const Home = (props) => {
             flex-direction: row;
             padding-bottom: var(--dl-space-space-fourunits);
           }
-          .home-container23 {
+          .home-container26 {
             display: flex;
             max-width: 35%;
             align-items: flex-start;
@@ -1361,7 +1426,7 @@ const Home = (props) => {
             text-align: left;
             line-height: 1.6;
           }
-          .home-container24 {
+          .home-container27 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-items: flex-start;
@@ -1375,22 +1440,14 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
+            background-color: #bfd682;
           }
           .home-text68 {
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
           .home-text69 {
-            color: var(--dl-color-gray-700);
-          }
-          .home-text71 {
-            color: var(--dl-color-gray-700);
-          }
-          .home-text73 {
-            color: var(--dl-color-gray-700);
-          }
-          .home-text76 {
-            color: var(--dl-color-gray-700);
+            color: #000000;
           }
           .home-footer {
             flex: 0 0 auto;
@@ -1413,7 +1470,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fourunits);
             justify-content: space-between;
           }
-          .home-container25 {
+          .home-container28 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             max-width: var(--dl-size-size-maxwidth);
@@ -1471,7 +1528,7 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-container26 {
+          .home-container29 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1508,14 +1565,41 @@ const Home = (props) => {
             text-decoration: none;
           }
           @media (max-width: 1600px) {
+            .home-header {
+              background-color: #eb0101;
+            }
             .home-hero {
-              background-color: #0a70f7;
+              background-color: #ef4747;
+            }
+            .home-features1 {
+              background-color: #b8e274;
+            }
+            .home-pricing1 {
+              background-color: #b33a3a;
+            }
+            .home-gallery1 {
+              background-color: #6bcc88;
+            }
+            .home-image {
+              width: 380px;
+              height: 244px;
+            }
+            .home-image1 {
+              width: 464px;
+              height: 247px;
+            }
+            .home-image2 {
+              width: 409px;
+              height: 248px;
             }
             .home-banner1 {
               display: none;
             }
             .home-faq1 {
               display: none;
+            }
+            .home-text69 {
+              color: #000000;
             }
             .home-text78 {
               color: var(--dl-color-secondary-gray500);
@@ -1525,6 +1609,12 @@ const Home = (props) => {
             }
           }
           @media (max-width: 1200px) {
+            .home-features1 {
+              background-color: #39dad7;
+            }
+            .home-pricing1 {
+              background-color: #d83d3d;
+            }
             .home-pricing-card {
               height: 673px;
               margin-bottom: 0px;
@@ -1579,6 +1669,18 @@ const Home = (props) => {
             .home-text39 {
               color: var(--dl-color-gray-800);
             }
+            .home-image {
+              width: 350px;
+              height: 200px;
+            }
+            .home-image1 {
+              width: 350px;
+              height: 200px;
+            }
+            .home-image2 {
+              width: 350px;
+              height: 200px;
+            }
             .home-icon12 {
               fill: #d9d9d9;
             }
@@ -1621,11 +1723,6 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
             }
-            .home-pricing-sub-heading {
-              text-align: center;
-              padding-left: var(--dl-space-space-threeunits);
-              padding-right: var(--dl-space-space-threeunits);
-            }
             .home-container06 {
               align-items: center;
               flex-direction: column;
@@ -1646,6 +1743,18 @@ const Home = (props) => {
             .home-pricing-card3 {
               width: 100%;
               max-width: 450px;
+            }
+            .home-image {
+              width: 279px;
+              height: 131px;
+            }
+            .home-image1 {
+              width: 260px;
+              height: 123px;
+            }
+            .home-image2 {
+              width: 241px;
+              height: 125px;
             }
             .home-banner-sub-heading {
               max-width: 100%;
@@ -1750,10 +1859,6 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-pricing-sub-heading {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-            }
             .home-container06 {
               align-items: center;
               flex-direction: column;
@@ -1782,6 +1887,22 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-twounits);
             }
+            .home-gallery1 {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
+            }
+            .home-image {
+              width: 370px;
+              height: 91px;
+            }
+            .home-image1 {
+              width: 291px;
+              height: 456px;
+            }
+            .home-image2 {
+              width: 483px;
+              height: 117px;
+            }
             .home-banner1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
@@ -1795,7 +1916,7 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .home-container23 {
+            .home-container26 {
               max-width: 100%;
               align-self: center;
               align-items: center;
@@ -1815,7 +1936,7 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container26 {
+            .home-container29 {
               align-items: center;
               flex-direction: column;
               justify-content: space-between;
@@ -1872,6 +1993,21 @@ const Home = (props) => {
             .home-pricing-card3 {
               margin-bottom: 0px;
             }
+            .home-gallery1 {
+              padding: var(--dl-space-space-unit);
+            }
+            .home-image {
+              width: 350px;
+              height: 200px;
+            }
+            .home-image1 {
+              width: 350px;
+              height: 246px;
+            }
+            .home-image2 {
+              width: 350px;
+              height: 200px;
+            }
             .home-banner1 {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
@@ -1882,6 +2018,9 @@ const Home = (props) => {
               font-style: normal;
               font-weight: 600;
             }
+            .home-text69 {
+              color: #000000;
+            }
             .home-footer1 {
               padding: var(--dl-space-space-unit);
             }
@@ -1889,7 +2028,7 @@ const Home = (props) => {
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container26 {
+            .home-container29 {
               align-items: center;
               flex-direction: column;
               justify-content: space-between;
