@@ -110,7 +110,37 @@ const Home = (props) => {
               </span>
               <h2 className="home-details-heading heading2">Roadmap</h2>
               <span className="home-details-sub-heading">
-                Discover our roadmap for success
+                <span className="home-text03">
+                  Introducing Doge X Grok (DXG), the meme token that unites the
+                  power of the Doge community, Twitter enthusiasts (X), and the
+                  innovative world of AI by Elon Musk&apos;s Grok. With a total
+                  supply of 420 quadrillion tokens, DXG is set to revolutionize
+                  the crypto ecosystem.
+                </span>
+                <br className="home-text04"></br>
+                <span>
+                  DXG operates on a 5% tax for both buying and selling,
+                  contributing to its sustainability and community-driven
+                  growth. The burning mechanism ensures a deflationary aspect,
+                  enhancing scarcity over time and potentially increasing the
+                  value of each token.
+                </span>
+                <br className="home-text06"></br>
+                <br className="home-text07"></br>
+                <br className="home-text08"></br>
+                <br className="home-text09"></br>
+                <span>
+                  Embracing the future of decentralized finance (DeFi), DXG
+                  integrates seamlessly with NFTs, offering a comprehensive
+                  experience for crypto enthusiasts. The inclusion of Elon
+                  Musk&apos;s AI, Grok, adds a unique and futuristic dimension
+                  to the community, fostering innovation and technological
+                  advancement within the meme coin space.
+                </span>
+                <br className="home-text11"></br>
+                <br className="home-text12"></br>
+                <br className="home-text13"></br>
+                <br className="home-text14"></br>
               </span>
             </div>
             <div className="home-details-image"></div>
@@ -159,13 +189,13 @@ const Home = (props) => {
             <div className="home-container06">
               <div className="home-pricing-card">
                 <div className="home-container07">
-                  <span className="home-text03 heading3">Free</span>
+                  <span className="home-text15 heading3">Free</span>
                   <span className="home-free-plan-description">
                     Get started with our free plan
                   </span>
                 </div>
                 <div className="home-container08">
-                  <span className="home-text04">
+                  <span className="home-text16">
                     <span>$</span>
                     <span></span>
                   </span>
@@ -173,25 +203,25 @@ const Home = (props) => {
                 </div>
                 <div className="home-container09">
                   <div className="home-container10">
-                    <span className="home-text07">✔</span>
+                    <span className="home-text19">✔</span>
                     <span className="home-free-plan-features">
                       Access to basic token supply and price details
                     </span>
                   </div>
                   <div className="home-container11">
-                    <span className="home-text08">✔</span>
+                    <span className="home-text20">✔</span>
                     <span className="home-free-plan-features1">
                       Limited roadmap access
                     </span>
                   </div>
                   <div className="home-container12">
-                    <span className="home-text09">✔</span>
+                    <span className="home-text21">✔</span>
                     <span className="home-free-plan-features2">
                       Disclaimer section included
                     </span>
                   </div>
                   <div className="home-container13">
-                    <span className="home-text10">✔</span>
+                    <span className="home-text22">✔</span>
                     <span className="home-free-plan-features3">
                       Free Plan Feature
                     </span>
@@ -203,46 +233,46 @@ const Home = (props) => {
               </div>
               <div className="home-pricing-card1">
                 <div className="home-container14">
-                  <span className="home-text11 heading3">BASIC</span>
+                  <span className="home-text23 heading3">BASIC</span>
                   <span className="home-basic-plan-description">
                     Upgrade to our basic plan for more features
                   </span>
                 </div>
                 <div className="home-container15">
-                  <span className="home-text12">
+                  <span className="home-text24">
                     <span>$</span>
                     <span></span>
                   </span>
                   <span className="home-basic-plan-pricing">7</span>
-                  <span className="home-text15">/ month</span>
+                  <span className="home-text27">/ month</span>
                 </div>
                 <div className="home-container16">
                   <div className="home-container17">
-                    <span className="home-text16">✔</span>
-                    <span className="home-text17">
+                    <span className="home-text28">✔</span>
+                    <span className="home-text29">
                       All features of FREE plan
                     </span>
                   </div>
                   <div className="home-container18">
-                    <span className="home-text18">✔</span>
+                    <span className="home-text30">✔</span>
                     <span className="home-basic-plan-features">
                       Full token supply and price details
                     </span>
                   </div>
                   <div className="home-container19">
-                    <span className="home-text19">✔</span>
+                    <span className="home-text31">✔</span>
                     <span className="home-basic-plan-features1">
                       Complete roadmap access with quarterly steps
                     </span>
                   </div>
                   <div className="home-container20">
-                    <span className="home-text20">✔</span>
+                    <span className="home-text32">✔</span>
                     <span className="home-basic-plan-features2">
                       Partners section with logos included
                     </span>
                   </div>
                   <div className="home-container21">
-                    <span className="home-text21">✔</span>
+                    <span className="home-text33">✔</span>
                     <span className="home-basic-plan-features3">
                       Disclaimer section included
                     </span>
@@ -254,7 +284,7 @@ const Home = (props) => {
               </div>
               <div className="home-pricing-card2">
                 <div className="home-container22">
-                  <span className="home-text22 heading3">
+                  <span className="home-text34 heading3">
                     <span>PRO</span>
                     <br></br>
                   </span>
@@ -263,34 +293,34 @@ const Home = (props) => {
                   </span>
                 </div>
                 <div className="home-container23">
-                  <span className="home-text25">
+                  <span className="home-text37">
                     <span>$</span>
                     <span></span>
                   </span>
                   <span className="home-pro-plan-pricing">20</span>
-                  <span className="home-text28">/ month</span>
+                  <span className="home-text40">/ month</span>
                 </div>
                 <div className="home-container24">
                   <div className="home-container25">
-                    <span className="home-text29">✔</span>
-                    <span className="home-text30">
+                    <span className="home-text41">✔</span>
+                    <span className="home-text42">
                        All features of BASIC plan
                     </span>
                   </div>
                   <div className="home-container26">
-                    <span className="home-text31">✔</span>
+                    <span className="home-text43">✔</span>
                     <span className="home-pro-plan-features">
                       Advanced token supply and price details
                     </span>
                   </div>
                   <div className="home-container27">
-                    <span className="home-text32">✔</span>
+                    <span className="home-text44">✔</span>
                     <span className="home-pro-plan-features1">
                       Comprehensive roadmap access with detailed quarterly steps
                     </span>
                   </div>
                   <div className="home-container28">
-                    <span className="home-text33">✔</span>
+                    <span className="home-text45">✔</span>
                     <span className="home-pro-plan-features2">
                       Enhanced partners section with logos included
                     </span>
@@ -348,12 +378,12 @@ const Home = (props) => {
           <div className="home-faq-container">
             <div className="home-faq1">
               <div className="home-container30">
-                <span className="home-text34 sectionTitle">
+                <span className="home-text46 sectionTitle">
                   <span>FAQ</span>
                   <br></br>
                 </span>
-                <h2 className="home-text37 heading2">Common questions</h2>
-                <span className="home-text38">
+                <h2 className="home-text49 heading2">Common questions</h2>
+                <span className="home-text50">
                   <span>
                     Here are some of the most common questions that we get.
                   </span>
@@ -453,6 +483,45 @@ const Home = (props) => {
             </div>
           </div>
         </div>
+        <div className="home-feature-card">
+          <h2 className="home-text67">
+            Disclaimer:
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </h2>
+          <span className="home-text68">
+            <span>
+              The information provided here is for informational purposes only
+              and should not be considered financial advice. Investing in
+              cryptocurrency, including meme tokens like Doge X Grok (DXG),
+              involves inherent risks, and users should conduct their own
+              research and exercise caution before making any investment
+              decisions. The content provided does not guarantee any specific
+              outcomes, and past performance is not indicative of future
+              results. Cryptocurrency markets are highly volatile, and prices
+              can fluctuate rapidly. Always consult with a financial advisor and
+              only invest what you can afford to lose. The user is solely
+              responsible for their investment choices, and this disclaimer
+              absolves the author and the platform from any liability related to
+              financial decisions made based on the information provided.
+            </span>
+            <br className="home-text70"></br>
+            <br></br>
+            <br className="home-text72"></br>
+            <br></br>
+            <span>
+              $DogeXGrok is just a BEP20 meme coin with no intrinsic value or
+              expectation of financial return. It’s built by a committed and
+              based set of contributors solely for entertainment &amp; community
+              engagement purposes.
+            </span>
+            <br className="home-text75"></br>
+            <br></br>
+          </span>
+        </div>
         <div className="home-footer">
           <footer className="home-footer1">
             <div className="home-container32">
@@ -474,7 +543,7 @@ const Home = (props) => {
             </div>
             <div className="home-separator"></div>
             <div className="home-container33">
-              <span className="home-text55">
+              <span className="home-text77">
                 © 2023 myCompany, All Rights Reserved.
               </span>
               <div className="home-icon-group1">
@@ -844,6 +913,46 @@ const Home = (props) => {
             line-height: 1.6;
             margin-bottom: var(--dl-space-space-twounits);
           }
+          .home-text04 {
+            color: var(--dl-color-gray-800);
+            font-size: 18px;
+            line-height: 1.6;
+          }
+          .home-text06 {
+            color: var(--dl-color-gray-800);
+            font-size: 18px;
+            line-height: 1.6;
+          }
+          .home-text07 {
+            color: var(--dl-color-gray-800);
+            font-size: 18px;
+            line-height: 1.6;
+          }
+          .home-text08 {
+            color: var(--dl-color-gray-800);
+            font-size: 18px;
+            line-height: 1.6;
+          }
+          .home-text09 {
+            color: var(--dl-color-gray-800);
+            font-size: 18px;
+            line-height: 1.6;
+          }
+          .home-text11 {
+            color: var(--dl-color-gray-800);
+            font-size: 18px;
+            line-height: 1.6;
+          }
+          .home-text12 {
+            color: var(--dl-color-gray-800);
+            font-size: 18px;
+            line-height: 1.6;
+          }
+          .home-text13 {
+            color: var(--dl-color-gray-800);
+            font-size: 18px;
+            line-height: 1.6;
+          }
           .home-details-image {
             width: 500px;
             border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -983,7 +1092,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text03 {
+          .home-text15 {
             font-family: 'Raleway';
             font-weight: bold;
             text-transform: uppercase;
@@ -997,7 +1106,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
           }
-          .home-text04 {
+          .home-text16 {
             font-size: 1.15rem;
             margin-top: var(--dl-space-space-twounits);
             font-weight: 300;
@@ -1022,7 +1131,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text07 {
+          .home-text19 {
             color: var(--dl-color-gray-800);
           }
           .home-free-plan-features {
@@ -1037,7 +1146,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text08 {
+          .home-text20 {
             color: var(--dl-color-gray-800);
           }
           .home-free-plan-features1 {
@@ -1053,7 +1162,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text09 {
+          .home-text21 {
             color: var(--dl-color-gray-800);
           }
           .home-free-plan-features2 {
@@ -1069,7 +1178,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text10 {
+          .home-text22 {
             color: var(--dl-color-gray-800);
           }
           .home-free-plan-features3 {
@@ -1111,7 +1220,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text11 {
+          .home-text23 {
             font-family: 'Raleway';
             font-weight: bold;
             text-transform: uppercase;
@@ -1125,7 +1234,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
           }
-          .home-text12 {
+          .home-text24 {
             font-size: 1.15rem;
             margin-top: var(--dl-space-space-twounits);
             font-weight: 300;
@@ -1134,7 +1243,7 @@ const Home = (props) => {
             font-size: 4rem;
             font-weight: 700;
           }
-          .home-text15 {
+          .home-text27 {
             font-size: 1.15rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
@@ -1156,10 +1265,10 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text16 {
+          .home-text28 {
             color: var(--dl-color-gray-800);
           }
-          .home-text17 {
+          .home-text29 {
             color: var(--dl-color-gray-800);
           }
           .home-container18 {
@@ -1171,7 +1280,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text18 {
+          .home-text30 {
             color: var(--dl-color-gray-800);
           }
           .home-basic-plan-features {
@@ -1187,7 +1296,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text19 {
+          .home-text31 {
             color: var(--dl-color-gray-800);
           }
           .home-basic-plan-features1 {
@@ -1203,7 +1312,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text20 {
+          .home-text32 {
             color: var(--dl-color-gray-800);
           }
           .home-basic-plan-features2 {
@@ -1219,7 +1328,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text21 {
+          .home-text33 {
             color: var(--dl-color-gray-800);
           }
           .home-basic-plan-features3 {
@@ -1266,7 +1375,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text22 {
+          .home-text34 {
             font-family: 'Raleway';
             font-weight: bold;
             text-transform: uppercase;
@@ -1280,7 +1389,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
           }
-          .home-text25 {
+          .home-text37 {
             font-size: 1.15rem;
             margin-top: var(--dl-space-space-twounits);
             font-weight: 300;
@@ -1289,7 +1398,7 @@ const Home = (props) => {
             font-size: 4rem;
             font-weight: 700;
           }
-          .home-text28 {
+          .home-text40 {
             font-size: 1.15rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
@@ -1310,10 +1419,10 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text29 {
+          .home-text41 {
             color: var(--dl-color-gray-800);
           }
-          .home-text30 {
+          .home-text42 {
             color: var(--dl-color-gray-800);
             line-height: 1.6;
           }
@@ -1326,7 +1435,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text31 {
+          .home-text43 {
             color: var(--dl-color-gray-800);
           }
           .home-pro-plan-features {
@@ -1342,7 +1451,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text32 {
+          .home-text44 {
             color: var(--dl-color-gray-800);
           }
           .home-pro-plan-features1 {
@@ -1358,7 +1467,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text33 {
+          .home-text45 {
             color: var(--dl-color-gray-800);
           }
           .home-pro-plan-features2 {
@@ -1505,17 +1614,17 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text34 {
+          .home-text46 {
             color: var(--dl-color-primary1-blue80);
             font-family: 'Raleway';
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text37 {
+          .home-text49 {
             font-family: 'Raleway';
             line-height: 1.6;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text38 {
+          .home-text50 {
             color: var(--dl-color-gray-800);
             font-size: 18px;
             text-align: left;
@@ -1526,6 +1635,31 @@ const Home = (props) => {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
+          }
+          .home-feature-card {
+            width: 100%;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            max-width: var(--dl-size-size-maxwidth);
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .home-text67 {
+            font-weight: 600;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .home-text68 {
+            color: var(--dl-color-gray-700);
+          }
+          .home-text70 {
+            color: var(--dl-color-gray-700);
+          }
+          .home-text72 {
+            color: var(--dl-color-gray-700);
+          }
+          .home-text75 {
+            color: var(--dl-color-gray-700);
           }
           .home-footer {
             flex: 0 0 auto;
@@ -1614,7 +1748,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-text55 {
+          .home-text77 {
             color: var(--dl-color-secondary-gray500);
           }
           .home-icon-group1 {
@@ -1663,6 +1797,16 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
             }
+            .home-text03 {
+              text-align: center;
+              padding-left: var(--dl-space-space-threeunits);
+              padding-right: var(--dl-space-space-threeunits);
+            }
+            .home-text14 {
+              text-align: center;
+              padding-left: var(--dl-space-space-threeunits);
+              padding-right: var(--dl-space-space-threeunits);
+            }
             .home-features-sub-heading {
               text-align: center;
               padding-left: var(--dl-space-space-threeunits);
@@ -1699,7 +1843,7 @@ const Home = (props) => {
             .home-banner-sub-heading {
               max-width: 100%;
             }
-            .home-text38 {
+            .home-text50 {
               text-align: center;
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
@@ -1769,6 +1913,16 @@ const Home = (props) => {
               text-align: center;
             }
             .home-details-sub-heading {
+              text-align: center;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+            }
+            .home-text03 {
+              text-align: center;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+            }
+            .home-text14 {
               text-align: center;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
@@ -1848,7 +2002,7 @@ const Home = (props) => {
               align-items: center;
               justify-content: center;
             }
-            .home-text38 {
+            .home-text50 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
@@ -1867,7 +2021,7 @@ const Home = (props) => {
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text55 {
+            .home-text77 {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
           }
@@ -1925,6 +2079,10 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
+            .home-text67 {
+              font-style: normal;
+              font-weight: 600;
+            }
             .home-footer1 {
               padding: var(--dl-space-space-unit);
             }
@@ -1937,7 +2095,7 @@ const Home = (props) => {
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text55 {
+            .home-text77 {
               text-align: center;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
