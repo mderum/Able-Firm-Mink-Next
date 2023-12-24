@@ -95,7 +95,7 @@ const Home = (props) => {
               <span className="home-hero-sub-heading">BUY NOW</span>
               <div className="home-btn-group">
                 <button className="home-hero-button2 button">
-                  CA: 0x29CB847F63c0dab7f08587792A60dB71B2d8a704
+                  CA: 0x00000000000000
                 </button>
               </div>
             </div>
@@ -964,7 +964,7 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-round);
             background-size: cover;
             justify-content: center;
-            background-image: url('/log-500h.png');
+            background-image: url('/log2-500h.png');
             background-position: center;
           }
           .home-features {
