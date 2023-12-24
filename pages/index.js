@@ -115,7 +115,7 @@ const Home = (props) => {
             </div>
             <div className="home-details-image">
               <span className="home-text03">
-                <span>DogeXGrok</span>
+                <span className="home-text04">DogeXGrok</span>
                 <span className="home-text05">
                   <span
                     dangerouslySetInnerHTML={{
@@ -869,12 +869,9 @@ const Home = (props) => {
             background-position: center;
           }
           .home-text03 {
-            top: 352px;
-            left: 148px;
-            color: #ffffff;
+            color: rgb(255, 255, 255);
             width: 250px;
             height: 70px;
-            position: absolute;
             font-size: 40px;
             align-self: center;
             font-style: normal;
@@ -887,7 +884,10 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-radius8);
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
-            background-color: #ed0d0d;
+            background-color: rgb(237, 13, 13);
+          }
+          .home-text04 {
+            box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
           }
           .home-text05 {
             line-height: 23;
