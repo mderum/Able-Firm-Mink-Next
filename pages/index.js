@@ -964,7 +964,7 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-round);
             background-size: cover;
             justify-content: center;
-            background-image: url('/log2-500h.png');
+            background-image: url('/l5-500h.png');
             background-position: center;
           }
           .home-features {
