@@ -345,23 +345,24 @@ const Home = (props) => {
                 }}
               />
             </span>
-            <div className="home-container29">
-              <img
-                alt="image"
-                src="/1_0y89qcf-ncigqqxds1ch8g-300h.jpg"
-                className="home-image"
-              />
-              <img
-                alt="image"
-                src="/pancakeswap-cake3276-500w.jpg"
-                className="home-image1"
-              />
+            <div className="home-container29"></div>
+            <div className="home-container30">
               <img
                 alt="image"
                 src="/f7bla1hx0aar8ld-500h.jpg"
-                className="home-image2"
+                className="home-image"
               />
             </div>
+            <img
+              alt="image"
+              src="/pancakeswap-cake3276-500w.jpg"
+              className="home-image1"
+            />
+            <img
+              alt="image"
+              src="/1_0y89qcf-ncigqqxds1ch8g-300h.jpg"
+              className="home-image2"
+            />
           </div>
         </div>
         <div className="home-banner">
@@ -378,7 +379,7 @@ const Home = (props) => {
         <div className="home-faq">
           <div className="home-faq-container">
             <div className="home-faq1">
-              <div className="home-container30">
+              <div className="home-container31">
                 <span className="home-text46 sectionTitle">
                   <span>FAQ</span>
                   <br></br>
@@ -459,7 +460,7 @@ const Home = (props) => {
                   </span>
                 </span>
               </div>
-              <div className="home-container31">
+              <div className="home-container32">
                 <Question
                   Answer="The total token supply is XXXX tokens."
                   Question="What is the total token supply?"
@@ -525,7 +526,7 @@ const Home = (props) => {
         </div>
         <div className="home-footer">
           <footer className="home-footer1">
-            <div className="home-container32">
+            <div className="home-container33">
               <span className="home-logo2">
                 DogeXGrok
                 <span
@@ -543,7 +544,7 @@ const Home = (props) => {
               </nav>
             </div>
             <div className="home-separator"></div>
-            <div className="home-container33">
+            <div className="home-container34">
               <span className="home-text77">
                 © 2023 myCompany, All Rights Reserved.
               </span>
@@ -1526,24 +1527,32 @@ const Home = (props) => {
           }
           .home-container29 {
             width: 100%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: grid;
             grid-gap: var(--dl-space-space-unit);
             margin-top: var(--dl-space-space-twounits);
             grid-template-columns: 1fr 1fr 1fr 1fr;
           }
+          .home-container30 {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
           .home-image {
-            width: 384px;
-            height: 258px;
+            width: 400;
+            height: 200;
             object-fit: cover;
           }
           .home-image1 {
-            width: 396px;
-            height: 253px;
+            width: 400;
+            height: 200;
             object-fit: cover;
           }
           .home-image2 {
-            width: 457px;
-            height: 254px;
+            width: 400;
+            height: 200;
             object-fit: cover;
           }
           .home-banner {
@@ -1623,7 +1632,7 @@ const Home = (props) => {
             flex-direction: row;
             padding-bottom: var(--dl-space-space-fourunits);
           }
-          .home-container30 {
+          .home-container31 {
             display: flex;
             max-width: 35%;
             align-items: flex-start;
@@ -1646,7 +1655,7 @@ const Home = (props) => {
             text-align: left;
             line-height: 1.6;
           }
-          .home-container31 {
+          .home-container32 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-items: flex-start;
@@ -1698,7 +1707,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fourunits);
             justify-content: space-between;
           }
-          .home-container32 {
+          .home-container33 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             max-width: var(--dl-size-size-maxwidth);
@@ -1756,7 +1765,7 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-container33 {
+          .home-container34 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1792,30 +1801,30 @@ const Home = (props) => {
           }
           @media (max-width: 1600px) {
             .home-image {
-              width: 380px;
-              height: 244px;
+              width: 464px;
+              height: 247px;
             }
             .home-image1 {
               width: 409px;
               height: 248px;
             }
             .home-image2 {
-              width: 464px;
-              height: 247px;
+              width: 380px;
+              height: 244px;
             }
           }
           @media (max-width: 1200px) {
             .home-image {
-              width: 323px;
-              height: 194px;
+              width: 398px;
+              height: 189px;
             }
             .home-image1 {
               width: 343px;
               height: 203px;
             }
             .home-image2 {
-              width: 398px;
-              height: 189px;
+              width: 323px;
+              height: 194px;
             }
           }
           @media (max-width: 991px) {
@@ -1885,16 +1894,16 @@ const Home = (props) => {
               grid-template-columns: 1fr 1fr 1fr;
             }
             .home-image {
-              width: 279px;
-              height: 131px;
+              width: 260px;
+              height: 123px;
             }
             .home-image1 {
               width: 241px;
               height: 125px;
             }
             .home-image2 {
-              width: 260px;
-              height: 123px;
+              width: 279px;
+              height: 131px;
             }
             .home-banner-sub-heading {
               max-width: 100%;
@@ -2042,16 +2051,16 @@ const Home = (props) => {
               grid-template-columns: 1fr 1fr;
             }
             .home-image {
-              width: 370px;
-              height: 91px;
+              width: 291px;
+              height: 456px;
             }
             .home-image1 {
               width: 483px;
               height: 117px;
             }
             .home-image2 {
-              width: 291px;
-              height: 456px;
+              width: 370px;
+              height: 91px;
             }
             .home-banner1 {
               padding-left: var(--dl-space-space-twounits);
@@ -2066,7 +2075,7 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .home-container30 {
+            .home-container31 {
               max-width: 100%;
               align-self: center;
               align-items: center;
@@ -2086,7 +2095,7 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container33 {
+            .home-container34 {
               align-items: center;
               flex-direction: column;
               justify-content: space-between;
@@ -2148,7 +2157,7 @@ const Home = (props) => {
             }
             .home-image {
               width: 447px;
-              height: 283px;
+              height: 246px;
             }
             .home-image1 {
               width: 454px;
@@ -2156,7 +2165,7 @@ const Home = (props) => {
             }
             .home-image2 {
               width: 447px;
-              height: 246px;
+              height: 283px;
             }
             .home-banner1 {
               padding-top: var(--dl-space-space-twounits);
@@ -2175,7 +2184,7 @@ const Home = (props) => {
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container33 {
+            .home-container34 {
               align-items: center;
               flex-direction: column;
               justify-content: space-between;
