@@ -56,7 +56,9 @@ const Home = (props) => {
                   <span className="home-nav11">Token Supply</span>
                   <span className="home-nav21">Roadmap</span>
                   <span className="home-nav31">Partners</span>
-                  <span className="home-nav41">Disclaimer</span>
+                  <span href="#parts" className="home-nav41">
+                    Disclaimer
+                  </span>
                 </nav>
                 <div className="home-buttons1"></div>
               </div>
@@ -2000,6 +2002,18 @@ const Home = (props) => {
             }
             .home-logo {
               font-size: 1.5em;
+            }
+            .home-nav1 {
+              text-decoration: none;
+            }
+            .home-nav2 {
+              text-decoration: none;
+            }
+            .home-nav3 {
+              text-decoration: none;
+            }
+            .home-nav4 {
+              text-decoration: none;
             }
             .home-mobile-menu {
               padding: 16px;
