@@ -353,12 +353,12 @@ const Home = (props) => {
               />
               <img
                 alt="image"
-                src="/f7bla1hx0aar8ld-600w.jpg"
+                src="/pancakeswap-cake3276-500w.jpg"
                 className="home-image1"
               />
               <img
                 alt="image"
-                src="/pancakeswap-cake3276-500w.jpg"
+                src="/f7bla1hx0aar8ld-500h.jpg"
                 className="home-image2"
               />
             </div>
@@ -1532,18 +1532,18 @@ const Home = (props) => {
             grid-template-columns: 1fr 1fr 1fr 1fr;
           }
           .home-image {
-            width: 399px;
-            height: 270px;
+            width: 384px;
+            height: 258px;
             object-fit: cover;
           }
           .home-image1 {
-            width: 538px;
-            height: 276px;
+            width: 396px;
+            height: 253px;
             object-fit: cover;
           }
           .home-image2 {
-            width: 413px;
-            height: 268px;
+            width: 457px;
+            height: 254px;
             object-fit: cover;
           }
           .home-banner {
@@ -1790,6 +1790,34 @@ const Home = (props) => {
             width: 24px;
             height: 24px;
           }
+          @media (max-width: 1600px) {
+            .home-image {
+              width: 380px;
+              height: 244px;
+            }
+            .home-image1 {
+              width: 409px;
+              height: 248px;
+            }
+            .home-image2 {
+              width: 464px;
+              height: 247px;
+            }
+          }
+          @media (max-width: 1200px) {
+            .home-image {
+              width: 323px;
+              height: 194px;
+            }
+            .home-image1 {
+              width: 343px;
+              height: 203px;
+            }
+            .home-image2 {
+              width: 398px;
+              height: 189px;
+            }
+          }
           @media (max-width: 991px) {
             .home-hero1 {
               flex-direction: column;
@@ -1855,6 +1883,18 @@ const Home = (props) => {
             }
             .home-container29 {
               grid-template-columns: 1fr 1fr 1fr;
+            }
+            .home-image {
+              width: 279px;
+              height: 131px;
+            }
+            .home-image1 {
+              width: 241px;
+              height: 125px;
+            }
+            .home-image2 {
+              width: 260px;
+              height: 123px;
             }
             .home-banner-sub-heading {
               max-width: 100%;
@@ -1997,7 +2037,21 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
             }
             .home-container29 {
+              height: 1021px;
+              padding-bottom: 1px;
               grid-template-columns: 1fr 1fr;
+            }
+            .home-image {
+              width: 370px;
+              height: 91px;
+            }
+            .home-image1 {
+              width: 483px;
+              height: 117px;
+            }
+            .home-image2 {
+              width: 291px;
+              height: 456px;
             }
             .home-banner1 {
               padding-left: var(--dl-space-space-twounits);
@@ -2091,6 +2145,18 @@ const Home = (props) => {
             }
             .home-container29 {
               grid-template-columns: 1fr;
+            }
+            .home-image {
+              width: 447px;
+              height: 283px;
+            }
+            .home-image1 {
+              width: 454px;
+              height: 285px;
+            }
+            .home-image2 {
+              width: 447px;
+              height: 246px;
             }
             .home-banner1 {
               padding-top: var(--dl-space-space-twounits);
