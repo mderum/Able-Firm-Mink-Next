@@ -353,12 +353,12 @@ const Home = (props) => {
               />
               <img
                 alt="image"
-                src="/pancakeswap-cake3276-500w.jpg"
+                src="/f7bla1hx0aar8ld-600w.jpg"
                 className="home-image1"
               />
               <img
                 alt="image"
-                src="/f7bla1hx0aar8ld-600w.jpg"
+                src="/pancakeswap-cake3276-500w.jpg"
                 className="home-image2"
               />
             </div>
@@ -1538,13 +1538,13 @@ const Home = (props) => {
             object-fit: cover;
           }
           .home-image1 {
-            width: 413px;
-            height: 268px;
+            width: 538px;
+            height: 276px;
             object-fit: cover;
           }
           .home-image2 {
-            width: 538px;
-            height: 276px;
+            width: 413px;
+            height: 268px;
             object-fit: cover;
           }
           .home-banner {
