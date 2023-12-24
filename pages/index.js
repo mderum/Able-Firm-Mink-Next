@@ -334,7 +334,7 @@ const Home = (props) => {
         </div>
         <div className="home-gallery">
           <div className="home-gallery1">
-            <h1 className="home-gallery-heading heading2">Our portfolio</h1>
+            <h1 className="home-gallery-heading heading2">Our Partners</h1>
             <span className="home-gallery-sub-heading">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
               volutpat turpis. Mauris luctus rutrum mi ut rhoncus. Integer in
@@ -347,18 +347,18 @@ const Home = (props) => {
             </span>
             <div className="home-container29">
               <img
-                src="/1_0y89qcf-ncigqqxds1ch8g-300h.jpg"
                 alt="image"
+                src="/1_0y89qcf-ncigqqxds1ch8g-300h.jpg"
                 className="home-image"
               />
               <img
-                src="/pancakeswap-cake3276-500w.jpg"
                 alt="image"
+                src="/pancakeswap-cake3276-500w.jpg"
                 className="home-image1"
               />
               <img
-                src="/f7bla1hx0aar8ld-600w.jpg"
                 alt="image"
+                src="/f7bla1hx0aar8ld-600w.jpg"
                 className="home-image2"
               />
             </div>
@@ -1513,6 +1513,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fourunits);
           }
           .home-gallery-heading {
+            box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
             text-align: center;
             font-family: 'Raleway';
             line-height: 1.6;
