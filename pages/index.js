@@ -1513,7 +1513,6 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fourunits);
           }
           .home-gallery-heading {
-            box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
             text-align: center;
             font-family: 'Raleway';
             line-height: 1.6;
@@ -2074,6 +2073,9 @@ const Home = (props) => {
             .home-hero-button2 {
               margin-top: var(--dl-space-space-unit);
               margin-left: 0px;
+            }
+            .home-details-image {
+              width: 450px;
             }
             .home-features1 {
               padding-top: var(--dl-space-space-twounits);
