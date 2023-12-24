@@ -813,6 +813,7 @@ const Home = (props) => {
             width: 100%;
             height: auto;
             display: flex;
+            min-width: auto;
             align-items: center;
             justify-content: center;
           }
@@ -871,6 +872,8 @@ const Home = (props) => {
             top: 352px;
             left: 148px;
             color: #ffffff;
+            width: 250px;
+            height: 70px;
             position: absolute;
             font-size: 40px;
             align-self: center;
