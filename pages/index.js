@@ -113,18 +113,7 @@ const Home = (props) => {
                 Discover our roadmap for success
               </span>
             </div>
-            <div className="home-details-image">
-              <span className="home-text03">
-                <span className="home-text04">DogeXGrok</span>
-                <span className="home-text05">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-            </div>
+            <div className="home-details-image"></div>
           </div>
         </div>
         <div className="home-features">
@@ -170,13 +159,13 @@ const Home = (props) => {
             <div className="home-container06">
               <div className="home-pricing-card">
                 <div className="home-container07">
-                  <span className="home-text06 heading3">Free</span>
+                  <span className="home-text03 heading3">Free</span>
                   <span className="home-free-plan-description">
                     Get started with our free plan
                   </span>
                 </div>
                 <div className="home-container08">
-                  <span className="home-text07">
+                  <span className="home-text04">
                     <span>$</span>
                     <span></span>
                   </span>
@@ -184,25 +173,25 @@ const Home = (props) => {
                 </div>
                 <div className="home-container09">
                   <div className="home-container10">
-                    <span className="home-text10">✔</span>
+                    <span className="home-text07">✔</span>
                     <span className="home-free-plan-features">
                       Access to basic token supply and price details
                     </span>
                   </div>
                   <div className="home-container11">
-                    <span className="home-text11">✔</span>
+                    <span className="home-text08">✔</span>
                     <span className="home-free-plan-features1">
                       Limited roadmap access
                     </span>
                   </div>
                   <div className="home-container12">
-                    <span className="home-text12">✔</span>
+                    <span className="home-text09">✔</span>
                     <span className="home-free-plan-features2">
                       Disclaimer section included
                     </span>
                   </div>
                   <div className="home-container13">
-                    <span className="home-text13">✔</span>
+                    <span className="home-text10">✔</span>
                     <span className="home-free-plan-features3">
                       Free Plan Feature
                     </span>
@@ -214,46 +203,46 @@ const Home = (props) => {
               </div>
               <div className="home-pricing-card1">
                 <div className="home-container14">
-                  <span className="home-text14 heading3">BASIC</span>
+                  <span className="home-text11 heading3">BASIC</span>
                   <span className="home-basic-plan-description">
                     Upgrade to our basic plan for more features
                   </span>
                 </div>
                 <div className="home-container15">
-                  <span className="home-text15">
+                  <span className="home-text12">
                     <span>$</span>
                     <span></span>
                   </span>
                   <span className="home-basic-plan-pricing">7</span>
-                  <span className="home-text18">/ month</span>
+                  <span className="home-text15">/ month</span>
                 </div>
                 <div className="home-container16">
                   <div className="home-container17">
-                    <span className="home-text19">✔</span>
-                    <span className="home-text20">
+                    <span className="home-text16">✔</span>
+                    <span className="home-text17">
                       All features of FREE plan
                     </span>
                   </div>
                   <div className="home-container18">
-                    <span className="home-text21">✔</span>
+                    <span className="home-text18">✔</span>
                     <span className="home-basic-plan-features">
                       Full token supply and price details
                     </span>
                   </div>
                   <div className="home-container19">
-                    <span className="home-text22">✔</span>
+                    <span className="home-text19">✔</span>
                     <span className="home-basic-plan-features1">
                       Complete roadmap access with quarterly steps
                     </span>
                   </div>
                   <div className="home-container20">
-                    <span className="home-text23">✔</span>
+                    <span className="home-text20">✔</span>
                     <span className="home-basic-plan-features2">
                       Partners section with logos included
                     </span>
                   </div>
                   <div className="home-container21">
-                    <span className="home-text24">✔</span>
+                    <span className="home-text21">✔</span>
                     <span className="home-basic-plan-features3">
                       Disclaimer section included
                     </span>
@@ -265,7 +254,7 @@ const Home = (props) => {
               </div>
               <div className="home-pricing-card2">
                 <div className="home-container22">
-                  <span className="home-text25 heading3">
+                  <span className="home-text22 heading3">
                     <span>PRO</span>
                     <br></br>
                   </span>
@@ -274,34 +263,34 @@ const Home = (props) => {
                   </span>
                 </div>
                 <div className="home-container23">
-                  <span className="home-text28">
+                  <span className="home-text25">
                     <span>$</span>
                     <span></span>
                   </span>
                   <span className="home-pro-plan-pricing">20</span>
-                  <span className="home-text31">/ month</span>
+                  <span className="home-text28">/ month</span>
                 </div>
                 <div className="home-container24">
                   <div className="home-container25">
-                    <span className="home-text32">✔</span>
-                    <span className="home-text33">
+                    <span className="home-text29">✔</span>
+                    <span className="home-text30">
                        All features of BASIC plan
                     </span>
                   </div>
                   <div className="home-container26">
-                    <span className="home-text34">✔</span>
+                    <span className="home-text31">✔</span>
                     <span className="home-pro-plan-features">
                       Advanced token supply and price details
                     </span>
                   </div>
                   <div className="home-container27">
-                    <span className="home-text35">✔</span>
+                    <span className="home-text32">✔</span>
                     <span className="home-pro-plan-features1">
                       Comprehensive roadmap access with detailed quarterly steps
                     </span>
                   </div>
                   <div className="home-container28">
-                    <span className="home-text36">✔</span>
+                    <span className="home-text33">✔</span>
                     <span className="home-pro-plan-features2">
                       Enhanced partners section with logos included
                     </span>
@@ -359,12 +348,12 @@ const Home = (props) => {
           <div className="home-faq-container">
             <div className="home-faq1">
               <div className="home-container30">
-                <span className="home-text37 sectionTitle">
+                <span className="home-text34 sectionTitle">
                   <span>FAQ</span>
                   <br></br>
                 </span>
-                <h2 className="home-text40 heading2">Common questions</h2>
-                <span className="home-text41">
+                <h2 className="home-text37 heading2">Common questions</h2>
+                <span className="home-text38">
                   <span>
                     Here are some of the most common questions that we get.
                   </span>
@@ -485,7 +474,7 @@ const Home = (props) => {
             </div>
             <div className="home-separator"></div>
             <div className="home-container33">
-              <span className="home-text58">
+              <span className="home-text55">
                 © 2023 myCompany, All Rights Reserved.
               </span>
               <div className="home-icon-group1">
@@ -857,40 +846,17 @@ const Home = (props) => {
           }
           .home-details-image {
             width: 500px;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             height: 500px;
             display: flex;
             position: relative;
             align-items: center;
             margin-left: var(--dl-space-space-fourunits);
-            border-radius: var(--dl-radius-radius-radius4);
+            border-radius: var(--dl-radius-radius-round);
             background-size: cover;
             justify-content: center;
-            background-image: url('/external/15a2d21a-f104-4617-974f-ee52a3d787b1-500h.jpg');
+            background-image: url('/log-500h.png');
             background-position: center;
-          }
-          .home-text03 {
-            color: rgb(255, 255, 255);
-            width: 250px;
-            height: 70px;
-            font-size: 40px;
-            align-self: center;
-            font-style: normal;
-            font-weight: 800;
-            padding-top: var(--dl-space-space-halfunit);
-            border-color: var(--dl-color-gray-black);
-            border-style: solid;
-            border-width: 1px;
-            padding-left: var(--dl-space-space-halfunit);
-            border-radius: var(--dl-radius-radius-radius8);
-            padding-right: var(--dl-space-space-halfunit);
-            padding-bottom: var(--dl-space-space-halfunit);
-            background-color: rgb(237, 13, 13);
-          }
-          .home-text04 {
-            box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
-          }
-          .home-text05 {
-            line-height: 23;
           }
           .home-features {
             flex: 0 0 auto;
@@ -1017,7 +983,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text06 {
+          .home-text03 {
             font-family: 'Raleway';
             font-weight: bold;
             text-transform: uppercase;
@@ -1031,7 +997,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
           }
-          .home-text07 {
+          .home-text04 {
             font-size: 1.15rem;
             margin-top: var(--dl-space-space-twounits);
             font-weight: 300;
@@ -1056,7 +1022,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text10 {
+          .home-text07 {
             color: var(--dl-color-gray-800);
           }
           .home-free-plan-features {
@@ -1071,7 +1037,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text11 {
+          .home-text08 {
             color: var(--dl-color-gray-800);
           }
           .home-free-plan-features1 {
@@ -1087,7 +1053,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text12 {
+          .home-text09 {
             color: var(--dl-color-gray-800);
           }
           .home-free-plan-features2 {
@@ -1103,7 +1069,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text13 {
+          .home-text10 {
             color: var(--dl-color-gray-800);
           }
           .home-free-plan-features3 {
@@ -1145,7 +1111,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text14 {
+          .home-text11 {
             font-family: 'Raleway';
             font-weight: bold;
             text-transform: uppercase;
@@ -1159,7 +1125,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
           }
-          .home-text15 {
+          .home-text12 {
             font-size: 1.15rem;
             margin-top: var(--dl-space-space-twounits);
             font-weight: 300;
@@ -1168,7 +1134,7 @@ const Home = (props) => {
             font-size: 4rem;
             font-weight: 700;
           }
-          .home-text18 {
+          .home-text15 {
             font-size: 1.15rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
@@ -1190,10 +1156,10 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text19 {
+          .home-text16 {
             color: var(--dl-color-gray-800);
           }
-          .home-text20 {
+          .home-text17 {
             color: var(--dl-color-gray-800);
           }
           .home-container18 {
@@ -1205,7 +1171,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text21 {
+          .home-text18 {
             color: var(--dl-color-gray-800);
           }
           .home-basic-plan-features {
@@ -1221,7 +1187,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text22 {
+          .home-text19 {
             color: var(--dl-color-gray-800);
           }
           .home-basic-plan-features1 {
@@ -1237,7 +1203,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text23 {
+          .home-text20 {
             color: var(--dl-color-gray-800);
           }
           .home-basic-plan-features2 {
@@ -1253,7 +1219,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text24 {
+          .home-text21 {
             color: var(--dl-color-gray-800);
           }
           .home-basic-plan-features3 {
@@ -1300,7 +1266,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text25 {
+          .home-text22 {
             font-family: 'Raleway';
             font-weight: bold;
             text-transform: uppercase;
@@ -1314,7 +1280,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
           }
-          .home-text28 {
+          .home-text25 {
             font-size: 1.15rem;
             margin-top: var(--dl-space-space-twounits);
             font-weight: 300;
@@ -1323,7 +1289,7 @@ const Home = (props) => {
             font-size: 4rem;
             font-weight: 700;
           }
-          .home-text31 {
+          .home-text28 {
             font-size: 1.15rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
@@ -1344,10 +1310,10 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text32 {
+          .home-text29 {
             color: var(--dl-color-gray-800);
           }
-          .home-text33 {
+          .home-text30 {
             color: var(--dl-color-gray-800);
             line-height: 1.6;
           }
@@ -1360,7 +1326,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text34 {
+          .home-text31 {
             color: var(--dl-color-gray-800);
           }
           .home-pro-plan-features {
@@ -1376,7 +1342,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text35 {
+          .home-text32 {
             color: var(--dl-color-gray-800);
           }
           .home-pro-plan-features1 {
@@ -1392,7 +1358,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text36 {
+          .home-text33 {
             color: var(--dl-color-gray-800);
           }
           .home-pro-plan-features2 {
@@ -1539,17 +1505,17 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text37 {
+          .home-text34 {
             color: var(--dl-color-primary1-blue80);
             font-family: 'Raleway';
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text40 {
+          .home-text37 {
             font-family: 'Raleway';
             line-height: 1.6;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text41 {
+          .home-text38 {
             color: var(--dl-color-gray-800);
             font-size: 18px;
             text-align: left;
@@ -1648,7 +1614,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-text58 {
+          .home-text55 {
             color: var(--dl-color-secondary-gray500);
           }
           .home-icon-group1 {
@@ -1733,7 +1699,7 @@ const Home = (props) => {
             .home-banner-sub-heading {
               max-width: 100%;
             }
-            .home-text41 {
+            .home-text38 {
               text-align: center;
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
@@ -1882,7 +1848,7 @@ const Home = (props) => {
               align-items: center;
               justify-content: center;
             }
-            .home-text41 {
+            .home-text38 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
@@ -1901,7 +1867,7 @@ const Home = (props) => {
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text58 {
+            .home-text55 {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
           }
@@ -1971,7 +1937,7 @@ const Home = (props) => {
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text58 {
+            .home-text55 {
               text-align: center;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
