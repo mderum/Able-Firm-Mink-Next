@@ -89,7 +89,7 @@ const Home = (props) => {
           <div className="home-hero1">
             <div className="home-container01">
               <h1 className="home-hero-heading heading1">
-                THE HOTEST GROK KING IS HERE
+                Most Promising Meme Token In The Crypto Field
               </h1>
               <span className="home-hero-sub-heading">BUY NOW</span>
               <div className="home-btn-group">
@@ -107,13 +107,13 @@ const Home = (props) => {
                 <span>Details</span>
                 <br></br>
               </span>
-              <h2 className="home-details-heading heading2">Roadmap</h2>
+              <h2 className="home-details-heading heading2">About Us</h2>
               <span className="home-details-sub-heading">
                 <span className="home-text03">
                   Introducing Doge X Grok (DXG), the meme token that unites the
                   power of the Doge community, Twitter enthusiasts (X), and the
                   innovative world of AI by Elon Musk&apos;s Grok. With a total
-                  supply of 420 quadrillion tokens, DXG is set to revolutionize
+                  supply of 499,000,000,000,000,000, DXG is set to revolutionize
                   the crypto ecosystem.
                 </span>
                 <br className="home-text04"></br>
