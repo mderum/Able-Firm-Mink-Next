@@ -1828,11 +1828,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-desktop-menu {
-              display: none;
-            }
             .home-burger-menu {
-              display: flex;
               align-items: center;
               justify-content: center;
             }
@@ -2003,6 +1999,9 @@ const Home = (props) => {
             .home-logo {
               font-size: 1.5em;
             }
+            .home-desktop-menu {
+              display: none;
+            }
             .home-nav1 {
               text-decoration: none;
             }
@@ -2014,6 +2013,12 @@ const Home = (props) => {
             }
             .home-nav4 {
               text-decoration: none;
+            }
+            .home-burger-menu {
+              display: flex;
+            }
+            .home-icon {
+              display: none;
             }
             .home-mobile-menu {
               padding: 16px;
