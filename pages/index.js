@@ -59,10 +59,7 @@ const Home = (props) => {
                   <span className="home-nav41">Disclaimer</span>
                   <span className="home-nav5">Blog</span>
                 </nav>
-                <div className="home-buttons1">
-                  <button className="home-login button">Login</button>
-                  <button className="home-register button">Register</button>
-                </div>
+                <div className="home-buttons1"></div>
               </div>
               <div>
                 <svg
@@ -736,33 +733,12 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
           }
           .home-buttons1 {
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
             margin-top: var(--dl-space-space-unit);
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
-          }
-          .home-login {
-            border-color: var(--dl-color-primary1-blue100);
-            border-width: 1px;
-            margin-right: var(--dl-space-space-twounits);
-            padding-left: 1.5rem;
-            border-radius: 30px;
-            padding-right: 1.5rem;
-          }
-          .home-register {
-            color: var(--dl-color-gray-white);
-            transition: 0.3s;
-            border-color: var(--dl-color-primary1-blue100);
-            border-width: 1px;
-            padding-left: 1.5rem;
-            border-radius: 30px;
-            padding-right: 1.5rem;
-            background-color: var(--dl-color-primary1-blue100);
-          }
-          .home-register:hover {
-            border-color: #849492ff;
-            background-color: #849492ff;
           }
           .home-icon04 {
             width: var(--dl-size-size-xsmall);
@@ -2078,6 +2054,7 @@ const Home = (props) => {
               padding: var(--dl-space-space-unit);
             }
             .home-image {
+              flex: 1;
               width: 350px;
               height: 200px;
             }
