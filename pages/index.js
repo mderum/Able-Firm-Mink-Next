@@ -158,12 +158,12 @@ const Home = (props) => {
               </div>
               <div className="home-container04">
                 <FeatureCard
-                  Heading="Secure Transactions"
-                  SubHeading="All transactions are encrypted and secure, ensuring the safety of your funds."
-                ></FeatureCard>
-                <FeatureCard
                   Heading="Fast and Efficient"
                   SubHeading="Our crypto currency platform offers lightning-fast transactions, allowing you to transfer funds quickly and efficiently."
+                ></FeatureCard>
+                <FeatureCard
+                  Heading="Secure Transactions"
+                  SubHeading="All transactions are encrypted and secure, ensuring the safety of your funds."
                 ></FeatureCard>
                 <FeatureCard
                   Heading="Decentralized Network"
