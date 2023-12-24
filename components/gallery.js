@@ -6,7 +6,7 @@ const Gallery = (props) => {
   return (
     <>
       <div className="gallery-gallery">
-        <h1 className="gallery-gallery-heading heading2">
+        <h1 id="parts" className="gallery-gallery-heading heading2">
           {props.GalleryHeading}
         </h1>
         <span className="gallery-gallery-sub-heading">
@@ -190,7 +190,7 @@ const Gallery = (props) => {
 Gallery.defaultProps = {
   GalleryHeading: 'Our Partners',
   GallerySubHeading:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non volutpat turpis.  Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.  ',
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non volutpat turpis.  Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.',
   image_src: '/1_0y89qcf-ncigqqxds1ch8g-300h.jpg',
   image_alt: 'image',
   image_src1: '/f7bla1hx0aar8ld-500h.jpg',
