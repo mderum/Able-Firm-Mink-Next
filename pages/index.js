@@ -813,7 +813,7 @@ const Home = (props) => {
             display: flex;
             align-items: flex-start;
             justify-content: center;
-            background-color: var(--dl-color-primary1-blue80);
+            background-color: #1886e8;
           }
           .home-hero1 {
             width: 100%;
