@@ -1561,14 +1561,94 @@ const Home = (props) => {
             .home-hero {
               background-color: #ef4747;
             }
+            .home-hero-heading {
+              font-family: Comic Sans MS;
+            }
+            .home-hero-sub-heading {
+              font-family: Comic Sans MS;
+            }
+            .home-hero-button2 {
+              font-family: Comic Sans MS;
+            }
+            .home-details-heading {
+              font-family: Comic Sans MS;
+            }
+            .home-details-sub-heading {
+              font-family: Comic Sans MS;
+            }
             .home-features1 {
               background-color: #b8e274;
             }
+            .home-features-heading {
+              font-family: Comic Sans MS;
+            }
             .home-pricing1 {
-              background-color: #b33a3a;
+              background-color: #df6666;
+            }
+            .home-pricing-heading {
+              font-family: Comic Sans MS;
+            }
+            .home-pricing-card {
+              background-color: #d43d40;
+            }
+            .home-free-plan-description {
+              color: #ffffff;
+              font-family: Comic Sans MS;
+            }
+            .home-free-plan-price {
+              font-family: Comic Sans MS;
+            }
+            .home-free-plan-features {
+              color: #ffffff;
+              font-family: Comic Sans MS;
+            }
+            .home-pricing-card1 {
+              background-color: #d43d40;
+            }
+            .home-basic-plan-description {
+              color: #ffffff;
+              font-family: Comic Sans MS;
+            }
+            .home-basic-plan-pricing {
+              font-family: Comic Sans MS;
+            }
+            .home-text21 {
+              color: #ffffff;
+              font-family: Comic Sans MS;
+            }
+            .home-pricing-card2 {
+              background-color: #d43d40;
+            }
+            .home-pro-plan-description {
+              color: #ffffff;
+              font-family: Comic Sans MS;
+            }
+            .home-pro-plan-pricing {
+              font-family: Comic Sans MS;
+            }
+            .home-text30 {
+              color: #ffffff;
+              font-family: Comic Sans MS;
+            }
+            .home-pricing-card3 {
+              background-color: #d43d40;
+            }
+            .home-pro-plan-description1 {
+              color: #ffffff;
+              font-family: Comic Sans MS;
+            }
+            .home-pro-plan-pricing1 {
+              font-family: Comic Sans MS;
+            }
+            .home-text39 {
+              color: #ffffff;
+              font-family: Comic Sans MS;
             }
             .home-gallery1 {
-              background-color: #6bcc88;
+              background-color: #e16163;
+            }
+            .home-gallery-heading {
+              font-family: Comic Sans MS;
             }
             .home-image {
               width: 380px;
@@ -1588,11 +1668,31 @@ const Home = (props) => {
             .home-faq1 {
               display: none;
             }
+            .home-text68 {
+              font-family: Comic Sans MS;
+            }
             .home-text69 {
               color: #000000;
+              font-family: Comic Sans MS;
+            }
+            .home-logo2 {
+              font-family: Comic Sans MS;
+            }
+            .home-nav12 {
+              font-family: Comic Sans MS;
+            }
+            .home-nav22 {
+              font-family: Comic Sans MS;
+            }
+            .home-nav32 {
+              font-family: Comic Sans MS;
+            }
+            .home-nav42 {
+              font-family: Comic Sans MS;
             }
             .home-text78 {
               color: var(--dl-color-secondary-gray500);
+              font-family: Comic Sans MS;
             }
             .home-icon12 {
               fill: #d9d9d9;
@@ -1603,7 +1703,7 @@ const Home = (props) => {
               background-color: #39dad7;
             }
             .home-pricing1 {
-              background-color: #d83d3d;
+              background-color: #df6666;
             }
             .home-pricing-card {
               height: 673px;
@@ -1617,7 +1717,7 @@ const Home = (props) => {
               font-weight: 700;
             }
             .home-free-plan-features {
-              color: var(--dl-color-gray-800);
+              color: #ffffff;
             }
             .home-pricing-card1 {
               height: 689px;
@@ -1630,7 +1730,7 @@ const Home = (props) => {
               font-weight: 700;
             }
             .home-text21 {
-              color: var(--dl-color-gray-800);
+              color: #ffffff;
               text-align: left;
             }
             .home-pricing-card2 {
@@ -1643,11 +1743,11 @@ const Home = (props) => {
               font-size: 4rem;
             }
             .home-text30 {
-              color: var(--dl-color-gray-800);
+              color: #ffffff;
               line-height: 1.6;
             }
             .home-pricing-card3 {
-              height: 857px;
+              height: 876px;
             }
             .home-pro-plan-description1 {
               line-height: 1.6;
@@ -1657,7 +1757,7 @@ const Home = (props) => {
               font-weight: 700;
             }
             .home-text39 {
-              color: var(--dl-color-gray-800);
+              color: #ffffff;
             }
             .home-image {
               width: 350px;
