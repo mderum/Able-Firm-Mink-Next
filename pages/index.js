@@ -781,7 +781,7 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-hero-heading {
-            color: var(--dl-color-gray-white);
+            color: #5740de;
             max-width: 800px;
             text-align: center;
             font-family: 'Yey2';
@@ -841,6 +841,7 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-details-heading {
+            color: #5740de;
             width: 80%;
             text-align: left;
             font-family: 'Yey2';
@@ -945,6 +946,7 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-features-heading {
+            color: #5740de;
             font-family: 'Yey2';
             line-height: 1.6;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -984,6 +986,7 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-pricing-heading {
+            color: #5740de;
             font-family: 'Yey2';
             line-height: 1.6;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -1252,6 +1255,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fourunits);
           }
           .home-gallery-heading {
+            color: #5740de;
             text-align: center;
             font-family: 'Yey2';
             line-height: 1.6;
@@ -1410,6 +1414,7 @@ const Home = (props) => {
             background-color: #bfd682;
           }
           .home-text68 {
+            color: #5740de;
             font-family: 'Yey2';
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
@@ -1540,6 +1545,7 @@ const Home = (props) => {
               background-color: #ef4747;
             }
             .home-hero-heading {
+              color: #5740de;
               font-family: Yey2;
             }
             .home-hero-sub-heading {
@@ -1549,6 +1555,7 @@ const Home = (props) => {
               font-family: Comic Sans MS;
             }
             .home-details-heading {
+              color: #5740de;
               font-family: Yey2;
             }
             .home-details-sub-heading {
@@ -1563,12 +1570,14 @@ const Home = (props) => {
               background-color: #b8e274;
             }
             .home-features-heading {
+              color: #5740de;
               font-family: Yey2;
             }
             .home-pricing1 {
               background-color: #df6666;
             }
             .home-pricing-heading {
+              color: #5740de;
               font-family: Yey2;
             }
             .home-pricing-card {
@@ -1634,6 +1643,7 @@ const Home = (props) => {
               background-color: #e16163;
             }
             .home-gallery-heading {
+              color: #5740de;
               font-family: Yey2;
             }
             .home-image {
@@ -1658,6 +1668,7 @@ const Home = (props) => {
               display: none;
             }
             .home-text68 {
+              color: #5740de;
               font-family: Yey2;
             }
             .home-text69 {
@@ -1797,12 +1808,16 @@ const Home = (props) => {
               padding-right: 0px;
             }
             .home-hero-heading {
+              color: #5740de;
               text-align: center;
             }
             .home-hero-sub-heading {
               text-align: center;
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
+            }
+            .home-details-heading {
+              color: #5740de;
             }
             .home-details-sub-heading {
               text-align: center;
@@ -1818,6 +1833,9 @@ const Home = (props) => {
               text-align: center;
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
+            }
+            .home-features-heading {
+              color: #5740de;
             }
             .home-container06 {
               align-items: center;
@@ -1911,6 +1929,7 @@ const Home = (props) => {
               justify-content: flex-start;
             }
             .home-details-heading {
+              color: #5740de;
               text-align: center;
             }
             .home-details-sub-heading {
@@ -1936,12 +1955,18 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
+            .home-features-heading {
+              color: #5740de;
+            }
             .home-container04 {
               grid-template-columns: 1fr;
             }
             .home-pricing1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
+            }
+            .home-pricing-heading {
+              color: #5740de;
             }
             .home-container06 {
               align-items: center;
@@ -1974,6 +1999,9 @@ const Home = (props) => {
             .home-gallery1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
+            }
+            .home-gallery-heading {
+              color: #5740de;
             }
             .home-image {
               width: 300px;
@@ -2009,6 +2037,9 @@ const Home = (props) => {
             .home-text51 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
+            }
+            .home-text68 {
+              color: #5740de;
             }
             .home-footer1 {
               padding-left: var(--dl-space-space-twounits);
@@ -2086,6 +2117,9 @@ const Home = (props) => {
               margin-top: var(--dl-space-space-unit);
               margin-left: 0px;
             }
+            .home-details-heading {
+              color: #5740de;
+            }
             .home-details-image {
               width: 450px;
             }
@@ -2095,6 +2129,12 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
+            .home-features-heading {
+              color: #5740de;
+            }
+            .home-pricing-heading {
+              color: #5740de;
+            }
             .home-pricing-card2 {
               margin-bottom: 0px;
             }
@@ -2103,6 +2143,9 @@ const Home = (props) => {
             }
             .home-gallery1 {
               padding: var(--dl-space-space-unit);
+            }
+            .home-gallery-heading {
+              color: #5740de;
             }
             .home-image {
               flex: 1;
@@ -2124,6 +2167,7 @@ const Home = (props) => {
               padding-bottom: var(--dl-space-space-twounits);
             }
             .home-text68 {
+              color: #5740de;
               font-style: normal;
               font-weight: 600;
             }
