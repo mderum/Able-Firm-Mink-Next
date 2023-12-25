@@ -585,7 +585,7 @@ const Home = (props) => {
             padding-top: var(--dl-space-space-oneandhalfunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-oneandhalfunits);
-            background-color: #eb0101;
+            background-color: #f1948a;
           }
           .home-navbar-interactive {
             width: 90%;
@@ -758,7 +758,7 @@ const Home = (props) => {
             display: flex;
             align-items: flex-start;
             justify-content: center;
-            background-color: #ef4747;
+            background-color: #f1948a;
           }
           .home-hero1 {
             width: 100%;
@@ -976,7 +976,7 @@ const Home = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fourunits);
             justify-content: center;
-            background-color: #df6666;
+            background-color: #f1948a;
           }
           .home-container05 {
             gap: 0;
@@ -1539,10 +1539,10 @@ const Home = (props) => {
           }
           @media (max-width: 1600px) {
             .home-header {
-              background-color: #eb0101;
+              background-color: #f1948a;
             }
             .home-hero {
-              background-color: #ef4747;
+              background-color: #f1948a;
             }
             .home-hero-heading {
               color: #5740de;
@@ -1574,7 +1574,7 @@ const Home = (props) => {
               font-family: Yey2;
             }
             .home-pricing1 {
-              background-color: #df6666;
+              background-color: #f1948a;
             }
             .home-pricing-heading {
               color: #5740de;
@@ -1637,10 +1637,10 @@ const Home = (props) => {
               font-family: Comic Sans MS;
             }
             .home-gallery {
-              background-color: #e16163;
+              background-color: #f1948a;
             }
             .home-gallery1 {
-              background-color: #e16163;
+              background-color: #f1948a;
             }
             .home-gallery-heading {
               color: #5740de;
@@ -1699,8 +1699,11 @@ const Home = (props) => {
             }
           }
           @media (max-width: 1200px) {
+            .home-header {
+              background-color: #f1948a;
+            }
             .home-hero-heading {
-              color: #5fd6a2;
+              color: #5740de;
               font-family: Yey2;
             }
             .home-details-heading {
@@ -1713,7 +1716,7 @@ const Home = (props) => {
               font-family: Yey2;
             }
             .home-pricing1 {
-              background-color: #df6666;
+              background-color: #f1948a;
             }
             .home-pricing-heading {
               font-family: Yey2;
@@ -1772,6 +1775,9 @@ const Home = (props) => {
             .home-text39 {
               color: #ffffff;
             }
+            .home-gallery1 {
+              background-color: #f1948a;
+            }
             .home-gallery-heading {
               font-family: Yey2;
             }
@@ -1798,6 +1804,9 @@ const Home = (props) => {
             }
           }
           @media (max-width: 991px) {
+            .home-header {
+              background-color: #f1948a;
+            }
             .home-hero1 {
               flex-direction: column;
             }
@@ -1837,6 +1846,9 @@ const Home = (props) => {
             .home-features-heading {
               color: #5740de;
             }
+            .home-pricing1 {
+              background-color: #f1948a;
+            }
             .home-container06 {
               align-items: center;
               flex-direction: column;
@@ -1857,6 +1869,9 @@ const Home = (props) => {
             .home-pricing-card3 {
               width: 100%;
               max-width: 450px;
+            }
+            .home-gallery1 {
+              background-color: #f1948a;
             }
             .home-image {
               width: 300px;
@@ -1964,6 +1979,7 @@ const Home = (props) => {
             .home-pricing1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
+              background-color: #f1948a;
             }
             .home-pricing-heading {
               color: #5740de;
@@ -1999,6 +2015,7 @@ const Home = (props) => {
             .home-gallery1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
+              background-color: #f1948a;
             }
             .home-gallery-heading {
               color: #5740de;
@@ -2061,6 +2078,9 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .home-header {
+              background-color: #f1948a;
+            }
             .home-navbar-interactive {
               width: 90%;
               padding: var(--dl-space-space-unit);
@@ -2132,6 +2152,9 @@ const Home = (props) => {
             .home-features-heading {
               color: #5740de;
             }
+            .home-pricing1 {
+              background-color: #f1948a;
+            }
             .home-pricing-heading {
               color: #5740de;
             }
@@ -2143,6 +2166,7 @@ const Home = (props) => {
             }
             .home-gallery1 {
               padding: var(--dl-space-space-unit);
+              background-color: #f1948a;
             }
             .home-gallery-heading {
               color: #5740de;
