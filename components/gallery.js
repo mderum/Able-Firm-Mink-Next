@@ -188,26 +188,26 @@ const Gallery = (props) => {
 }
 
 Gallery.defaultProps = {
+  image_src2: '/pancakeswap-cake3276-500w.jpg',
+  image_src: '/1_0y89qcf-ncigqqxds1ch8g-300h.jpg',
+  image_alt2: 'image',
+  image_src1: '/f7bla1hx0aar8ld-500h.jpg',
   GalleryHeading: 'Our Partners',
+  image_alt: 'image',
   GallerySubHeading:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non volutpat turpis.  Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.',
-  image_src: '/1_0y89qcf-ncigqqxds1ch8g-300h.jpg',
-  image_alt: 'image',
-  image_src1: '/f7bla1hx0aar8ld-500h.jpg',
   image_alt1: 'image',
-  image_src2: '/pancakeswap-cake3276-500w.jpg',
-  image_alt2: 'image',
 }
 
 Gallery.propTypes = {
-  GalleryHeading: PropTypes.string,
-  GallerySubHeading: PropTypes.string,
-  image_src: PropTypes.string,
-  image_alt: PropTypes.string,
-  image_src1: PropTypes.string,
-  image_alt1: PropTypes.string,
   image_src2: PropTypes.string,
+  image_src: PropTypes.string,
   image_alt2: PropTypes.string,
+  image_src1: PropTypes.string,
+  GalleryHeading: PropTypes.string,
+  image_alt: PropTypes.string,
+  GallerySubHeading: PropTypes.string,
+  image_alt1: PropTypes.string,
 }
 
 export default Gallery

@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "YeyeyRegular";
+  font-style: normal;
+  font-format: opentype;
+  font-weight: 400;
+  src: url("/fonts/yeye.61c0ae9559173bc8d8ed.otf") ;
+}
+@font-face {
+  font-family: "Yey2";
+  font-style: italic;
+  font-format: opentype;
+  font-weight: 200;
+  src: url("/fonts/yeye.61c0ae9559173bc8d8ed1.otf") ;
+}
 :root {
   --dl-color-gray-500: #595959;
   --dl-color-gray-700: #999999;

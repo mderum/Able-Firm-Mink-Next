@@ -554,7 +554,7 @@ const Home = (props) => {
                   </svg>
                 </a>
                 <a
-                  href="https:// t.me/DogeXGrok"
+                  href="https://t.me/DogeXGrok"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="home-link1"
@@ -784,7 +784,7 @@ const Home = (props) => {
             color: var(--dl-color-gray-white);
             max-width: 800px;
             text-align: center;
-            font-family: 'Raleway';
+            font-family: 'Yey2';
             line-height: 1.6;
           }
           .home-hero-sub-heading {
@@ -843,7 +843,7 @@ const Home = (props) => {
           .home-details-heading {
             width: 80%;
             text-align: left;
-            font-family: 'Raleway';
+            font-family: 'Yey2';
             line-height: 1.6;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
@@ -945,7 +945,7 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-features-heading {
-            font-family: 'Raleway';
+            font-family: 'Yey2';
             line-height: 1.6;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
@@ -984,7 +984,7 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-pricing-heading {
-            font-family: 'Raleway';
+            font-family: 'Yey2';
             line-height: 1.6;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
@@ -1253,7 +1253,7 @@ const Home = (props) => {
           }
           .home-gallery-heading {
             text-align: center;
-            font-family: 'Raleway';
+            font-family: 'Yey2';
             line-height: 1.6;
           }
           .home-container23 {
@@ -1410,6 +1410,7 @@ const Home = (props) => {
             background-color: #bfd682;
           }
           .home-text68 {
+            font-family: 'Yey2';
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -1539,7 +1540,7 @@ const Home = (props) => {
               background-color: #ef4747;
             }
             .home-hero-heading {
-              font-family: Comic Sans MS;
+              font-family: Yey2;
             }
             .home-hero-sub-heading {
               font-family: Comic Sans MS;
@@ -1548,7 +1549,7 @@ const Home = (props) => {
               font-family: Comic Sans MS;
             }
             .home-details-heading {
-              font-family: Comic Sans MS;
+              font-family: Yey2;
             }
             .home-details-sub-heading {
               font-family: Comic Sans MS;
@@ -1562,13 +1563,13 @@ const Home = (props) => {
               background-color: #b8e274;
             }
             .home-features-heading {
-              font-family: Comic Sans MS;
+              font-family: Yey2;
             }
             .home-pricing1 {
               background-color: #df6666;
             }
             .home-pricing-heading {
-              font-family: Comic Sans MS;
+              font-family: Yey2;
             }
             .home-pricing-card {
               background-color: #d43d40;
@@ -1633,7 +1634,7 @@ const Home = (props) => {
               background-color: #e16163;
             }
             .home-gallery-heading {
-              font-family: Comic Sans MS;
+              font-family: Yey2;
             }
             .home-image {
               width: 350px;
@@ -1657,7 +1658,7 @@ const Home = (props) => {
               display: none;
             }
             .home-text68 {
-              font-family: Comic Sans MS;
+              font-family: Yey2;
             }
             .home-text69 {
               color: #000000;
@@ -1687,11 +1688,24 @@ const Home = (props) => {
             }
           }
           @media (max-width: 1200px) {
+            .home-hero-heading {
+              color: #5fd6a2;
+              font-family: Yey2;
+            }
+            .home-details-heading {
+              font-family: YeyeyRegular;
+            }
             .home-features1 {
               background-color: #39dad7;
             }
+            .home-features-heading {
+              font-family: Yey2;
+            }
             .home-pricing1 {
               background-color: #df6666;
+            }
+            .home-pricing-heading {
+              font-family: Yey2;
             }
             .home-pricing-card {
               height: 673px;
@@ -1747,6 +1761,9 @@ const Home = (props) => {
             .home-text39 {
               color: #ffffff;
             }
+            .home-gallery-heading {
+              font-family: Yey2;
+            }
             .home-image {
               width: 350px;
               height: 200px;
@@ -1758,6 +1775,12 @@ const Home = (props) => {
             .home-image2 {
               width: 350px;
               height: 200px;
+            }
+            .home-text68 {
+              font-family: Yey2;
+            }
+            .home-logo2 {
+              font-family: Comic Sans MS;
             }
             .home-icon12 {
               fill: #d9d9d9;
