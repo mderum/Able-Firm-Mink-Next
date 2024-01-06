@@ -89,7 +89,7 @@ const Home = (props) => {
           <div className="home-hero1">
             <div className="home-container01">
               <h1 className="home-hero-heading heading1">
-                Most Promising Meme Token In The Crypto Field
+                We are here to unite all meme token community together
               </h1>
               <span className="home-hero-sub-heading">BUY NOW</span>
               <div className="home-btn-group">
@@ -1703,8 +1703,9 @@ const Home = (props) => {
               background-color: #f1948a;
             }
             .home-hero-heading {
-              color: #5740de;
+              color: rgb(87, 64, 222);
               font-family: Yey2;
+              line-height: 1.6;
             }
             .home-details-heading {
               font-family: YeyeyRegular;
