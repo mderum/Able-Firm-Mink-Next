@@ -151,14 +151,14 @@ const Home = (props) => {
               </div>
               <div className="home-container04">
                 <FeatureCard
-                  Heading="Name"
-                  SubHeading="DOGEXGROK"
+                  heading="Name"
+                  subHeading="DOGEXGROK"
                 ></FeatureCard>
                 <FeatureCard
-                  Heading="Total Supply"
-                  SubHeading="499 quadrillion"
+                  heading="Total Supply"
+                  subHeading="499 quadrillion"
                 ></FeatureCard>
-                <FeatureCard Heading="Symbol" SubHeading="DXG"></FeatureCard>
+                <FeatureCard heading="Symbol" subHeading="DXG"></FeatureCard>
               </div>
             </div>
           </div>
@@ -446,24 +446,24 @@ const Home = (props) => {
               </div>
               <div className="home-container27">
                 <Question
-                  Answer="The total token supply is XXXX tokens."
-                  Question="What is the total token supply?"
+                  answer="The total token supply is XXXX tokens."
+                  question="What is the total token supply?"
                 ></Question>
                 <Question
-                  Answer="The current price of the token is XXXX."
-                  Question="What is the current price of the token?"
+                  answer="The current price of the token is XXXX."
+                  question="What is the current price of the token?"
                 ></Question>
                 <Question
-                  Answer="The steps planned for the first quarter are XXXX."
-                  Question="What are the steps planned for the first quarter?"
+                  answer="The steps planned for the first quarter are XXXX."
+                  question="What are the steps planned for the first quarter?"
                 ></Question>
                 <Question
-                  Answer="Our partners include XXXX, XXXX, and XXXX."
-                  Question="Who are the partners of our crypto currency?"
+                  answer="Our partners include XXXX, XXXX, and XXXX."
+                  question="Who are the partners of our crypto currency?"
                 ></Question>
                 <Question
-                  Answer="The disclaimer for our crypto currency is XXXX."
-                  Question="What is the disclaimer for our crypto currency?"
+                  answer="The disclaimer for our crypto currency is XXXX."
+                  question="What is the disclaimer for our crypto currency?"
                 ></Question>
               </div>
             </div>
@@ -906,7 +906,7 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-round);
             background-size: cover;
             justify-content: center;
-            background-image: url('/l5-500h.png');
+            background-image: url('/l5-500h.jpg');
             background-position: center;
           }
           .home-features {

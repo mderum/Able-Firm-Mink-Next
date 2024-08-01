@@ -7,29 +7,29 @@ const Gallery = (props) => {
     <>
       <div className="gallery-gallery">
         <h1 id="parts" className="gallery-gallery-heading heading2">
-          {props.GalleryHeading}
+          {props.galleryHeading}
         </h1>
         <span className="gallery-gallery-sub-heading">
-          {props.GallerySubHeading}
+          {props.gallerySubHeading}
         </span>
         <div className="gallery-container">
           <img
-            alt={props.image_alt}
-            src={props.image_src}
+            alt={props.imageAlt}
+            src={props.imageSrc}
             className="gallery-image"
           />
         </div>
         <div className="gallery-container1">
           <img
-            alt={props.image_alt1}
-            src={props.image_src1}
+            alt={props.imageAlt1}
+            src={props.imageSrc1}
             className="gallery-image1"
           />
         </div>
         <div className="gallery-container2">
           <img
-            alt={props.image_alt2}
-            src={props.image_src2}
+            alt={props.imageAlt2}
+            src={props.imageSrc2}
             className="gallery-image2"
           />
         </div>
@@ -188,26 +188,26 @@ const Gallery = (props) => {
 }
 
 Gallery.defaultProps = {
-  image_src2: '/pancakeswap-cake3276-500w.jpg',
-  image_src: '/1_0y89qcf-ncigqqxds1ch8g-300h.jpg',
-  image_alt2: 'image',
-  image_src1: '/f7bla1hx0aar8ld-500h.jpg',
-  GalleryHeading: 'Our Partners',
-  image_alt: 'image',
-  GallerySubHeading:
+  imageSrc2: '/pancakeswap-cake3276-500w.jpg',
+  imageSrc: '/1_0y89qcf-ncigqqxds1ch8g-300h.jpg',
+  imageAlt2: 'image',
+  imageSrc1: '/f7bla1hx0aar8ld-500h.jpg',
+  galleryHeading: 'Our Partners',
+  imageAlt: 'image',
+  gallerySubHeading:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non volutpat turpis.  Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.',
-  image_alt1: 'image',
+  imageAlt1: 'image',
 }
 
 Gallery.propTypes = {
-  image_src2: PropTypes.string,
-  image_src: PropTypes.string,
-  image_alt2: PropTypes.string,
-  image_src1: PropTypes.string,
-  GalleryHeading: PropTypes.string,
-  image_alt: PropTypes.string,
-  GallerySubHeading: PropTypes.string,
-  image_alt1: PropTypes.string,
+  imageSrc2: PropTypes.string,
+  imageSrc: PropTypes.string,
+  imageAlt2: PropTypes.string,
+  imageSrc1: PropTypes.string,
+  galleryHeading: PropTypes.string,
+  imageAlt: PropTypes.string,
+  gallerySubHeading: PropTypes.string,
+  imageAlt1: PropTypes.string,
 }
 
 export default Gallery
