@@ -1,13 +1,14 @@
 import React from 'react'
 
 import PropTypes from 'prop-types'
+import { useTranslations } from 'next-intl'
 
 const Question = (props) => {
   return (
     <>
       <div className="question-container">
-        <span className="question-text heading4">{props.question}</span>
-        <span className="question-text1">{props.answer}</span>
+        <span className="question-text1 heading4">{props.question}</span>
+        <span className="question-text2">{props.answer}</span>
       </div>
       <style jsx>
         {`
@@ -21,11 +22,11 @@ const Question = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .question-text {
+          .question-text1 {
             font-weight: 700;
             line-height: 1.6;
           }
-          .question-text1 {
+          .question-text2 {
             color: var(--dl-color-gray-800);
             line-height: 1.6;
           }

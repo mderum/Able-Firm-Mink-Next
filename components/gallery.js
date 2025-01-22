@@ -1,6 +1,7 @@
 import React from 'react'
 
 import PropTypes from 'prop-types'
+import { useTranslations } from 'next-intl'
 
 const Gallery = (props) => {
   return (
@@ -12,25 +13,25 @@ const Gallery = (props) => {
         <span className="gallery-gallery-sub-heading">
           {props.gallerySubHeading}
         </span>
-        <div className="gallery-container">
+        <div className="gallery-container1">
           <img
             alt={props.imageAlt}
             src={props.imageSrc}
-            className="gallery-image"
-          />
-        </div>
-        <div className="gallery-container1">
-          <img
-            alt={props.imageAlt1}
-            src={props.imageSrc1}
             className="gallery-image1"
           />
         </div>
         <div className="gallery-container2">
           <img
+            alt={props.imageAlt1}
+            src={props.imageSrc1}
+            className="gallery-image2"
+          />
+        </div>
+        <div className="gallery-container3">
+          <img
             alt={props.imageAlt2}
             src={props.imageSrc2}
-            className="gallery-image2"
+            className="gallery-image3"
           />
         </div>
       </div>
@@ -61,18 +62,6 @@ const Gallery = (props) => {
             padding-left: var(--dl-space-space-threeunits);
             padding-right: var(--dl-space-space-threeunits);
           }
-          .gallery-container {
-            flex: 0 0 auto;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .gallery-image {
-            width: 384px;
-            height: 258px;
-            object-fit: cover;
-          }
           .gallery-container1 {
             flex: 0 0 auto;
             display: flex;
@@ -81,8 +70,8 @@ const Gallery = (props) => {
             justify-content: center;
           }
           .gallery-image1 {
-            width: 457px;
-            height: 254px;
+            width: 384px;
+            height: 258px;
             object-fit: cover;
           }
           .gallery-container2 {
@@ -93,34 +82,46 @@ const Gallery = (props) => {
             justify-content: center;
           }
           .gallery-image2 {
+            width: 457px;
+            height: 254px;
+            object-fit: cover;
+          }
+          .gallery-container3 {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .gallery-image3 {
             width: 396px;
             height: 253px;
             object-fit: cover;
           }
           @media (max-width: 1600px) {
-            .gallery-image {
+            .gallery-image1 {
               width: 380px;
               height: 244px;
             }
-            .gallery-image1 {
+            .gallery-image2 {
               width: 464px;
               height: 247px;
             }
-            .gallery-image2 {
+            .gallery-image3 {
               width: 409px;
               height: 248px;
             }
           }
           @media (max-width: 1200px) {
-            .gallery-image {
-              width: 350px;
-              height: 200px;
-            }
             .gallery-image1 {
               width: 350px;
               height: 200px;
             }
             .gallery-image2 {
+              width: 350px;
+              height: 200px;
+            }
+            .gallery-image3 {
               width: 350px;
               height: 200px;
             }
@@ -129,15 +130,15 @@ const Gallery = (props) => {
             .gallery-gallery-sub-heading {
               text-align: center;
             }
-            .gallery-image {
+            .gallery-image1 {
               width: 279px;
               height: 131px;
             }
-            .gallery-image1 {
+            .gallery-image2 {
               width: 260px;
               height: 123px;
             }
-            .gallery-image2 {
+            .gallery-image3 {
               width: 241px;
               height: 125px;
             }
@@ -151,15 +152,15 @@ const Gallery = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .gallery-image {
+            .gallery-image1 {
               width: 370px;
               height: 91px;
             }
-            .gallery-image1 {
+            .gallery-image2 {
               width: 291px;
               height: 456px;
             }
-            .gallery-image2 {
+            .gallery-image3 {
               width: 483px;
               height: 117px;
             }
@@ -168,15 +169,15 @@ const Gallery = (props) => {
             .gallery-gallery {
               padding: var(--dl-space-space-unit);
             }
-            .gallery-image {
+            .gallery-image1 {
               width: 350px;
               height: 200px;
             }
-            .gallery-image1 {
+            .gallery-image2 {
               width: 350px;
               height: 246px;
             }
-            .gallery-image2 {
+            .gallery-image3 {
               width: 350px;
               height: 200px;
             }

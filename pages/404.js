@@ -1,26 +1,28 @@
 import React from 'react'
 import Head from 'next/head'
 
+import { useTranslations } from 'next-intl'
+
 const NotFound = (props) => {
   return (
     <>
-      <div className="not-found-container">
+      <div className="not-found-container1">
         <Head>
           <title>404 - Not Found</title>
         </Head>
         <h3>OOPS! PAGE NOT FOUND</h3>
-        <div className="not-found-container1">
-          <h1 className="not-found-text1">404</h1>
-        </div>
         <div className="not-found-container2">
-          <h2 className="not-found-text2">
+          <h1 className="not-found-text2">404</h1>
+        </div>
+        <div className="not-found-container3">
+          <h2 className="not-found-text3">
             WE ARE SORRY, BUT THE PAGE YOU REQUESTED WAS NOT FOUND
           </h2>
         </div>
       </div>
       <style jsx>
         {`
-          .not-found-container {
+          .not-found-container1 {
             width: 100%;
             display: flex;
             overflow: auto;
@@ -29,14 +31,14 @@ const NotFound = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .not-found-container1 {
+          .not-found-container2 {
             display: flex;
             position: relative;
             align-items: center;
             flex-direction: column;
             justify-content: center;
           }
-          .not-found-text1 {
+          .not-found-text2 {
             color: rgb(38, 38, 38);
             font-size: 252px;
             margin-top: -20px;
@@ -44,14 +46,14 @@ const NotFound = (props) => {
             margin-bottom: -20px;
             letter-spacing: -20px;
           }
-          .not-found-container2 {
+          .not-found-container3 {
             width: 421px;
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
           }
-          .not-found-text2 {
+          .not-found-text3 {
             text-align: center;
             font-weight: 400;
           }
@@ -62,3 +64,14 @@ const NotFound = (props) => {
 }
 
 export default NotFound
+
+export async function getStaticProps(context) {
+  const messages = (await import('/locales/' + context.locale + '.json'))
+    .default
+  return {
+    props: {
+      messages,
+      ...context,
+    },
+  }
+}
